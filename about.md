@@ -17,8 +17,6 @@ jQuery
 Photoshop/Fireworks
 -->
 
-I love what I do.
-
 I'm a front-end developer living in the West Midlands with my wife and two kids. I work for Enterprise Inns  as a front-end developer and I’ve previously worked for npower and Alliance & Leicester as well as some smaller companies. I have over 10 years experience of web development.
 
 ## Skills
