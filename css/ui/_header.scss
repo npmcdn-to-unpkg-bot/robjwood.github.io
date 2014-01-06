@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $HEADER
+\*------------------------------------*/
+/**
+ * Explain here.
+ */
+
+header {
+	background: $Black;
+	margin-bottom: $base-spacing-unit*2;
+}
+
+.logo {
+	padding: $base-spacing-unit 0 0;
+}
+
+	.logo a {
+		color: $White;
+		font-size: 180%;
+		font-weight: 700;
+		font-family: $brand-secondary-face;
+		// font-style: italic;
+		// letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+.tagline {
+	color: $White;
+	font-style: italic;
+	font-weight: 700;
+}

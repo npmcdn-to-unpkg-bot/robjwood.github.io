@@ -1,0 +1,246 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>  Goodbye Wordpress Hello Jekyll -  Rob Wood - Front end web developer</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-381229-7']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+	   <div class="wrapper">
+            <!-- logo --> 
+            <div class="logo">
+                <a href="/" title="Rob Wood">Rob Wood</a>
+                <span class="tagline">Web developer from the Midlands</span>
+            </div>
+            <!-- end logo -->
+            
+            <nav class="grid">
+                <div class="grid__item one-whole">
+                    <ul class="nav nav--block site-nav">
+                        <li><a href="/about/">About</a></li>
+                        <!-- <li><a href="/portfolio/">Portfolio</a></li> -->
+                    </ul>                    
+                </div>
+            </nav>
+    	</div>
+    </header>
+    <div class="main-content">
+        <div class="wrapper">
+            <div class="grid">
+
+	
+		<div class="grid__item one-whole">
+
+            <h1>Goodbye WordPress, hello Jekyll</h1>
+
+<p>Hey you!</p>
+
+<p>Raise your hand if any of the following are true:</p>
+
+<ul>
+<li>You have a simple site</li>
+<li>You like writing in Markdown.</li>
+<li>You use/want to use GitHub.</li>
+<li>You've had <em>any</em> frustrations with WordPress.</li>
+<li>You've cried at the cost of hosting a website that has no more than 6 pages.</li>
+<li>You're a little bit scared of databases.</li>
+</ul>
+
+
+<p>I accept you may be staring at these words dead-eyed but if you <em>do</em> have a hand in the air then have you ever considered using a flat-file CMS (OK, you can put your hand down now)?</p>
+
+<h2>A what?</h2>
+
+<p>You heard.</p>
+
+<p>I've also heard them called 'static site generators', 'flat-file CMSs'. <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">This article</a> explains it like this:</p>
+
+<blockquote><p>A flat-file CMS is a content management system that stores content in files and folders rather than in a database like a traditional CMS</p></blockquote>
+
+<h2>What's the point?</h2>
+
+<p>Apart from the ease of working with just HTML for templating, you can also host your site <em>for free</em> using GitHub pages.</p>
+
+<h2>It's not just me</h2>
+
+<p>I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>. I'll explain how that went in a moment.</p>
+
+<p>And before you accuse me of bandwagon jumping, I started writing this article before I read <a href="http://24ways.org/2013/get-started-with-github-pages/" title="Get Started With GitHub Pages (Plus Bonus Jekyll)">this article on getting started with GitHub Pages</a>, and definitely before I'd even heard of <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">this one about the rise of flat file CMSs</a>.</p>
+
+<p>I can prove it too because the workflow for using Jekyll with GitHub pages means you're forced (in a good way) to use Git for version control.</p>
+
+<h2>So why now then Mr. Bandwagon Jumper?</h2>
+
+<p>A WordPress update failed, that's why.</p>
+
+<p>Yes, I could have just reinstalled WordPress. Yes I could have just recovered the broken database. Actually, I did try <em>both</em> those things but it just felt futile.</p>
+
+<p>All my site had was a few pages, images, and a couple of blog posts that really didn't need reviving. I asked myself this question:</p>
+
+<blockquote><p>Do I really <em>need</em> WordPress?</p></blockquote>
+
+<p>I looked out of the window for inspiration. All I saw was the top of a flat and a pigeon. I turned back to my monitor and looked at the database error.</p>
+
+<blockquote><p>No, I <em>don't</em> need WordPress.</p></blockquote>
+
+<p>That was that. I decided that it was just too bloated for a simple portfolio site. I'd whiled away many not-particularly-enjoyable hours tip-toeing around PHP code, messing with local servers and not enought time on building the website. I also live in a house with my family and I like to see them now and again (I don't know if the feeling's mutual).</p>
+
+<p>I'd heard a bit about Jekyll and noticed that <a href="https://twitter.com/csswizardry">Harry Robert's</a> site, <a href="http://csswizardry.com/" title="CSS Wizardry">CSS Wizardry</a>  uses it.</p>
+
+<p>Time for action...</p>
+
+<h2>Install Jekyll, and hide</h2>
+
+<p>Sorry, I had to use that pun. I decided to dive right into installing and using <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a> straight away.</p>
+
+<h3>Installing Jekyll</h3>
+
+<p>This isn't a how-to guide. There are loads of them already. This is a personal account of how it went for me. I've decided to keep it raw and messy to get across how I felt. You can skip this is you want. It contains swearing and exclamation marks:</p>
+
+<ul>
+<li>Load up the official <a href="http://jekyllrb.com/docs/home/">Jekyll docs</a>. That's easy.</li>
+<li>Open Terminal. Oh God. I knew I'd have to do this. It's OK. It does scare the hell out of me though.</li>
+<li>After an hour of typing gibberish into a black window, it <em>still</em> hasn't installed. Shit. I need <em>Ruby</em>, <em>Sudo</em>, <em>Command line Tools</em> in <em>Xcode</em> and other stuff I don't understand. <em>Why?</em></li>
+<li>Bugger. I need to update to the latest version of <em>Ruby</em>, which I have just done. It hasn't bloody worked.</li>
+<li>I need to install <em>Xcode</em> (so I can install <em>Command Line Tools</em>)? What the hell <em>for</em>? WHY? NOOOO! The version of <em>Xcode</em> I tried to download is only for the latest version of Mac OS. Jesus!</li>
+<li>I've got to go to the developer site to get an older version of <em>Xcode</em>. The installed file size is over 3.54GB! I don't have that much space left! I need to delete stuff now! Calm down! It's late. Go to bed. And stop talking to yourself.</li>
+<li>I hate the command line</li>
+<li>After waiting several days (that's how it felt) for <em>Xcode</em> to install, it <em>still</em> fails! Why are you doing this to me! I'm now fumbling around the internet and I've managed to install <em>Command Line Tools</em> (didn't have to install <em>Xcode</em> after all, grrr...). I'll just try installing it again and...IT F*CKING WORKED! I've never been so happy to see so much code I don't understand scrolling past me in Terminal. THANK YOU INTERNET!!!</li>
+<li>FOR GOD'S SAKE!!!. It <em>hasn't</em> worked. It HAS NOT WORKED.</li>
+<li>After wiping the blood and tears (no sweat) off the keyboard, and more fumbling around the internet, I've now need to install JSON via the command line too! Why? <em>WHY?</em></li>
+<li>Hmmm, some promising looking messages scrolling past in Terminal. It's stopped scrolling and now I need to install something called <em>rdiscount</em>. <em>Another</em> thing to install. ANOTHER THING. What are all these things I need to install?! What are THINGS? I <em>hate</em> the word 'THINGS'. Anyway, I think if I was told I'd need to install something called <em>virus.exe</em> I just do it blindly. I'm feeling desperate now.</li>
+<li>OH SWEET JESUS! It worked! I think it <em>really</em> worked!</li>
+</ul>
+
+
+<p>You get the picture. It was a pain.</p>
+
+<h2>Working with it</h2>
+
+<p>Once it was installed, it was very easy to work with. You can follow a tutorial on the official <a href="http://jekyllrb.com/docs/home/">Jekyll</a> site.</p>
+
+<p>As it's based on flat files, it's <em>very</em> easy to get going with and this also makes it easy to fit in with a SASS/LESS workflow as there's very little to get in the way.</p>
+
+<h2>Hosting with GitHub Pages</h2>
+
+<p>Another benefit of doing it this way is that you can host your site on GitHub Pages. This is also <em>very</em> easy to do and you can even use a custom domain name.</p>
+
+<p>You can find more detailed info on <a href="http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/">Hosting your site or portfolio on github</a>.</p>
+
+<h3>Pros</h3>
+
+<ul>
+<li>It's free</li>
+<li>It's easy to deploy to (depending on your set-up).</li>
+</ul>
+
+
+<h3>Cons</h3>
+
+<ul>
+<li>The source code for your site is available to everyone. This may not be an issue for you but it's something to be aware of.</li>
+<li>May not be suitable for dynamic websites or apps.</li>
+</ul>
+
+
+<h2>Pros and cons of using Jekyll</h2>
+
+<h3>Pros</h3>
+
+<ul>
+<li>If you are working on a static site, there's no need to worry about CMSs or databases.</li>
+<li>You can easily store the code on GitHub for version colleague.</li>
+</ul>
+
+
+<h3>Cons</h3>
+
+<ul>
+<li>For a command-line-aphobe like me there was a lot of command line tinkering and dependencies that were needed to set it up.</li>
+</ul>
+
+
+<h2>My new workflow</h2>
+
+<p>These are the tools I use:</p>
+
+<ul>
+<li>Jekyll. This is installed and running in the background so I can view the generated code locally.</li>
+<li>GitHub for mac. My local files are set as the working folder so any changes I make are ready to commit to my repository.</li>
+<li>GitHub pages. I've set up up GitHub pages for my Jekyll site to live and have used my own custom domain.</li>
+</ul>
+
+
+<p>This is an overview of how my workflow works from local change to live on the website:</p>
+
+<ol>
+<li>Open up terminal and get Jekyll running. Set it to watch local files so I can view (compiled?) changes on a local server.</li>
+<li>Open CodeKit where my SCSS files are processed.</li>
+<li>Make my changes to local HTML and CSS files stored on my hard drive, set as a GitHub repository.</li>
+<li>Using GitHub for Mac, commit all changes to live. This adds the latest code to the repository and deploys them to my website.</li>
+<li>Smile.</li>
+</ol>
+
+
+<h2>Summary</h2>
+
+<ul>
+<li>Complete bitch to set up for someone like me.</li>
+<li>Worth the effort so far.</li>
+</ul>
+
+
+<p>Making changes is easy and fits in better with my current workflow. WordPress is an excellent CMS but for a static site like mine, it's overblown.</p>
+
+<h2>Resources</h2>
+
+<ul>
+<li><a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses">A move away from WordPress in 2014?</a></li>
+<li><a href="http://jekyllrb.com/docs/home/">Getting started with the official Jekyll documentation</a></li>
+<li><a href="http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/">Hosting your site or portfolio on github</a></li>
+</ul>
+
+
+
+		</div>
+
+                </div>
+        </div>
+    </div>
+    <footer class="">
+        <div class="wrapper cf">
+            <div class="grid">
+                <div class="grid__item one-half testimonial float-left">
+                    <p>"Rob worked as a web developer for one of my clients and did an excellent job. He is very professional and a pleasure to deal with."</p>
+                    <p><em>David Hannett, Consultant, S3</em></p>
+                </div>
+
+                <div class="grid__item one-half testimonial float-right">
+                    <p>"Rob is a hard worker who has a good eye for design and always produces the highest quality of work. Rob was easy to get along with and work with."</p>
+                    <p><em>James Williams, Senior Web Developer, Alliance &amp; Leicester</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+

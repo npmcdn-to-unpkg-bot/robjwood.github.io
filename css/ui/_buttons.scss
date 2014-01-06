@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+/**
+ * Extend what is in Beautons
+ */
+
+.btn {
+    background: $brand-action-color;
+    color: $White;
+}
+
+.btn:hover {
+    // background: lighten(#fff, 10);
+}
+
+
+// Test buttons
+
+.btn--brand-color {background-color: $brand-color;}
+.btn--secondary-color {background-color: $brand-secondary-color;}

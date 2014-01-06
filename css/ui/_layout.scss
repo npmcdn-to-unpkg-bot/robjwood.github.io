@@ -1,0 +1,48 @@
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+/**
+ * Explain here.
+ */
+
+html {
+	background: $White;
+	color: $Black;
+	font-family: $brand-face;
+}
+
+
+a {
+	color: $brand-color;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.float-left {float:left}
+.float-right {float:right}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: $base-spacing-unit*28;
+	padding: 0 $half-spacing-unit;
+}
+
+.page-nav {
+	background: $Grey;
+}
+
+	.page-nav a {
+		color: #666;
+		padding: 5px 15px;
+		text-decoration: none;
+	}
+
+	.page-nav a:hover {
+		background: #666;
+		color: $White;
+	}	

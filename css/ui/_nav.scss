@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    $NAVIGATION
+\*------------------------------------*/
+/**
+ * Explain here.
+ */
+
+
+
+.site-nav {
+	margin-left: -$half-spacing-unit;
+}
+
+	.site-nav a {
+		font-size: 65%;
+		font-weight: 400;
+		letter-spacing: 3px;
+		padding: 10px 16px;
+		text-transform: uppercase;
+	}
