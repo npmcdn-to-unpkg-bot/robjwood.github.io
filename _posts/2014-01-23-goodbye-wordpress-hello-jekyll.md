@@ -2,6 +2,8 @@
 layout: homepage
 ---
 
+# Goodbye Wordpress, hello Jekyll
+
 Hey you!
 
 Raise your hand if any of the following are true:
