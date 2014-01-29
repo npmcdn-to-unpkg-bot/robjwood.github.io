@@ -45,4 +45,12 @@ a:hover {
 	.page-nav a:hover {
 		background: #666;
 		color: $White;
-	}	
+	}
+
+blockquote {
+	border-left: $base-spacing-unit/3 solid $brand-color;
+	color: #ccc;
+	font-style: italic;
+	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;
+	margin: $base-spacing-unit 0
+}	
