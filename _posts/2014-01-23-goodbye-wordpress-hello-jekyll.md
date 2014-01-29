@@ -21,7 +21,7 @@ You may be staring at these words dead-eyed but if you _do_ have a hand in the a
 
 You heard.
 
-They're also called 'static site generators', 'flat-file CMSs' or 'Supergran's Flowery Wrist Cobblers (probably). [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it like this:
+They've also been called 'static site generators' or 'flat-file CMSs'. [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it like this:
 
 > A flat-file CMS is a content management system that stores content in files and folders rather than in a database like a traditional CMS
 
