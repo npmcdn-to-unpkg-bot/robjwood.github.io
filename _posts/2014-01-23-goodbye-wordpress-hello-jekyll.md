@@ -2,7 +2,6 @@
 layout: homepage
 ---
 
-# Goodbye Wordpress, hello Jekyll
 # Goodbye WordPress, hello Jekyll
 
 Hey you!
