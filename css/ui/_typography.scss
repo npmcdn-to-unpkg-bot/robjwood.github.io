@@ -5,8 +5,19 @@
  * Explain here.
  */
 
-h1, h2 {
+h1, h2, h3 {
+	color: $Black;
 	font-family: $brand-secondary-face;
 	font-weight: 700;
-	margin-bottom: $base-spacing-unit;
+	margin-bottom: $half-spacing-unit;
+	letter-spacing: -1px;
 }
+
+blockquote {
+	border-left: $base-spacing-unit/3 solid $Yellow;
+	color: #777;
+	font-family: $brand-face;
+	font-style: italic;
+	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;
+	margin: $base-spacing-unit 0
+}	

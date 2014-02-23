@@ -44,7 +44,18 @@ $use-lozenges:      true;
 /**
  * Font-sizes (in pixels). Refer to relevant sections for their implementations.
  */
-$h1-size:           42px; // .alpha
+$giga-size:         101px!default;
+$mega-size:         82px!default;
+$kilo-size:         57px!default;
+
+$h1-size:           39px!default; // .alpha
+$h2-size:           26px!default; // .beta
+$h3-size:           24px!default; // .gamma
+$h4-size:           16px!default;
+
+$milli-size:        12px!default;
+$micro-size:        10px!default;
+
 $use-rules:         false;
 $use-stats:         false;
 $use-greybox:       false;
@@ -62,19 +73,15 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    18px;
-$base-line-height:  26px;
-$base-font-family:  sans-serif;
+$base-font-size:    20px;
+$base-line-height:  28px;
+$base-font-family:  serif;
 
 // Responsive breakpoints
 
 // ORIGINALS
 
-// $palm-start:        300px;
-// $lap-start:         481px;
-// $desk-start:        1024px;
-// $desk-wide-start:   1200px;
-
+$palm-start:        300px;
 $lap-start:         660px;
 $desk-start:        660px;
 $desk-wide-start:   1200px;
@@ -87,10 +94,20 @@ $desk-wide-start:   1200px;
 $brand-color:       		rgba(0,173,0,1);
 $brand-secondary-color: 	rgba(108,173,223,1);
 $brand-action-color: 		rgba(218,128,43,1);
-$brand-face:        		'Roboto', sans-serif;
+$brand-face:        		Georgia, serif;
+$brand-secondary-face:      "Helvetica Neue", Helvetica, sans-serif;
+
+// $brand-face:        		'Roboto', "Helvetica Neue", Helvetica, sans-serif;
+// $brand-secondary-face:   'Roboto Condensed', "Helvetica Neue", Helvetica, sans-serif;
 $brand-round:        		2px;
 
 
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Roboto Slab', serif;
+
+
+
 /*------------------------------------*\
     $CUSTOM
 \*------------------------------------*/
@@ -98,16 +115,13 @@ $brand-round:        		2px;
  * Place any of your own variables that sit on top of inuit.css here.
  */
 
-$brand-secondary-face:      'Roboto Condensed', sans-serif;
+// $heading-face:      		"Helvetica Neue", Helvetica, sans-serif;
+// $heading-face:      		'Roboto Slab', Georgia, serif;
 
-$Black: 					rgba(50,50,50,1);
+$Black: 					rgba(0,0,0,1);
 $White: 					rgba(246,246,246,1);
 $Grey:						rgba(220,220,220,1);
-
-
-/*------------------------------------*\
-    $CUSTOM
-\*------------------------------------*/
-/**
- * Place any of your own variables that sit on top of inuit.css here.
- */
+$Green:						rgba(50,130,50,1);
+$Red:						rgba(217,70,28,1);
+$Blue:						rgba(4,75,91,1);
+$Yellow:					rgba(230,255,0,1);

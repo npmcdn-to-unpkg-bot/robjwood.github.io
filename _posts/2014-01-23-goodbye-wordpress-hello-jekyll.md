@@ -1,8 +1,10 @@
 ---
-layout: homepage
+layout: blog-post
 ---
 
 # Goodbye WordPress, hello Jekyll
+
+By Rob Wood
 
 Hey you!
 
@@ -57,13 +59,7 @@ I'd heard a bit about Jekyll and noticed that [Harry Robert's](https://twitter.c
 
 Time for action...
 
-## Install Jekyll, and hide
-
-Sorry, I had to use that pun.
-
-I decided to dive straight into installing and using [Jekyll](http://jekyllrb.com/ "Jekyll").
-
-### Installing Jekyll
+## Installing Jekyll
 
 This isn't a how-to guide. This is a personal account of how it went for me. I've decided to keep it raw and messy to get across how I felt. You can skip this is you want. It contains swearing and exclamation marks:
 

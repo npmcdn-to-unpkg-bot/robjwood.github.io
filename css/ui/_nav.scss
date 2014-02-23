@@ -8,13 +8,19 @@
 
 
 .site-nav {
-	margin-left: -$half-spacing-unit;
+	margin: 0 0 0 -$half-spacing-unit;
 }
 
 	.site-nav a {
-		font-size: 65%;
+		background: none;
+		color: $Black;
+		font-family: $brand-secondary-face;
+		font-size: 100%;
 		font-weight: 400;
-		letter-spacing: 3px;
-		padding: 10px 16px;
-		text-transform: uppercase;
+		text-decoration: none;
 	}
+
+	.site-nav a:hover {
+		background: $Black;
+		color: $Yellow;
+	}	

@@ -2,12 +2,6 @@
 layout: homepage
 ---
 
-<!-- 
-# Front end developer
-XHTML, CSS, usability & accessibility
-10 years experience
--->
-
 # I’m a web developer from the Midlands...
 
 <!--

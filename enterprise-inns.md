@@ -8,9 +8,22 @@ _Web Developer_
 
 ## What do I do?
 
-I designed and re-built their website which re-launched in 2005. I was also responsible for maintaining and improving the website day-to-day.
+I'm the front end developer working on the main [Enterprise Inns website](enterpriseinns.com "Enterprise Inns") and intranet.
 
-- Solely responsible for the management, design, rebuild and maintenance of the company website.
-- Researched and wrote features for the website.
-- Responsible for management, design and editing of the internal team bulletin and monthly newsletter.
-- Responsible for the design and production of promotional campaigns for road shows.
+The current site is built on SharePoint 2010 with a move to SharePoint 2013 later this year. 
+
+The latest site is built on Share a point 2013 and has been built using a scalable architecture. It uses the Inuit framework.
+
+The Intranet serves the whole company and caters for both office based and field staff.
+
+## Intranet
+
+We built the Intranet from designs supplied by an external agency.
+
+## Skills I use
+
+- HTML
+- CSS
+- SASS
+- SEO
+- Google Analytics knowledge (including the GA IQ test)

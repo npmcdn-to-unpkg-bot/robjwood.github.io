@@ -11,14 +11,23 @@ html {
 	font-family: $brand-face;
 }
 
-
 a {
-	color: $brand-color;
-	text-decoration: none;
+	background: $Yellow;
+	color: $Black;
 }
 
 a:hover {
-	text-decoration: underline;
+	background: $Black;
+	color: $Yellow;
+	text-decoration: none;
+}
+
+li {
+	margin-bottom: $half-spacing-unit/3;
+}
+
+hr {
+	border: 1px solid rgba(240,240,240,1);;
 }
 
 
@@ -47,10 +56,6 @@ a:hover {
 		color: $White;
 	}
 
-blockquote {
-	border-left: $base-spacing-unit/3 solid $brand-color;
-	color: #777;
-	font-style: italic;
-	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;
-	margin: $base-spacing-unit 0
-}	
+.main-content {
+	margin: $base-spacing-unit*2 0;
+}
