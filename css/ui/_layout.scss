@@ -12,13 +12,13 @@ html {
 }
 
 a {
-	background: $Yellow;
-	color: $Black;
+	// background: $Yellow;
+	color: $MartRed;
 }
 
 a:hover {
-	background: $Black;
-	color: $Yellow;
+	background: $MartRed;
+	color: $White;
 	text-decoration: none;
 }
 

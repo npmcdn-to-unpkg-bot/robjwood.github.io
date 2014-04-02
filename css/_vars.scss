@@ -48,10 +48,9 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           39px!default; // .alpha
-$h2-size:           26px!default; // .beta
-$h3-size:           24px!default; // .gamma
-$h4-size:           16px!default;
+$h1-size:           42px;		// .alpha
+$h2-size:           26px; 		// .beta
+$h3-size:           19.505px;	// .gamma
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
@@ -74,7 +73,10 @@ $line-height:		false;
 
 // Base font stuff
 $base-font-size:    20px;
-$base-line-height:  28px;
+$base-line-height:  26px;
+
+// $base-font-size:    20px;
+// $base-line-height:  28px;
 $base-font-family:  serif;
 
 // Responsive breakpoints
@@ -94,11 +96,13 @@ $desk-wide-start:   1200px;
 $brand-color:       		rgba(0,173,0,1);
 $brand-secondary-color: 	rgba(108,173,223,1);
 $brand-action-color: 		rgba(218,128,43,1);
-$brand-face:        		Georgia, serif;
-$brand-secondary-face:      "Helvetica Neue", Helvetica, sans-serif;
 
-// $brand-face:        		'Roboto', "Helvetica Neue", Helvetica, sans-serif;
-// $brand-secondary-face:   'Roboto Condensed', "Helvetica Neue", Helvetica, sans-serif;
+
+
+$brand-face:        		"franklin-gothic-urw-1","franklin-gothic-urw-2", serif;
+$brand-secondary-face:      "franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2", Helvetica, sans-serif;
+$logo-face:					"franklin-gothic-urw-cond-1","franklin-gothic-urw-cond-2", Helvetica, sans-serif;
+
 $brand-round:        		2px;
 
 
@@ -119,9 +123,26 @@ $brand-round:        		2px;
 // $heading-face:      		'Roboto Slab', Georgia, serif;
 
 $Black: 					rgba(0,0,0,1);
-$White: 					rgba(246,246,246,1);
+$White: 					rgba(255,255,255,1);
 $Grey:						rgba(220,220,220,1);
 $Green:						rgba(50,130,50,1);
 $Red:						rgba(217,70,28,1);
 $Blue:						rgba(4,75,91,1);
 $Yellow:					rgba(230,255,0,1);
+
+// 'M' theme
+$MPurple:					#2b115a; // Purple
+$MBlue:						#008ac9; // Blue
+$MRed:						#f11a22; // Red
+
+// Martini theme
+$MartDarkBlue:					#00386B; // Dark blue
+$MartLightBlue:					#82C6E2; // Light blue
+$MartRed:						#E8112D; // Red
+
+// Villa
+$VGold:						#FCE100;
+
+
+
+

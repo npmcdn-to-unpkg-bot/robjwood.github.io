@@ -20,6 +20,8 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     </script>
+    <script type="text/javascript" src="//use.typekit.net/emg8fns.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
     <header>
@@ -57,11 +59,8 @@
 
             <h1>Goodbye WordPress, hello Jekyll</h1>
 
-<p>By Rob Wood</p>
+<p class="intro">Raise your hand if any of the following are true:</p>
 
-<p>Hey you!</p>
-
-<p>Raise your hand if any of the following are true:</p>
 
 <ul>
 <li>You have a simple site</li>
@@ -79,11 +78,9 @@
 
 <p>You heard.</p>
 
-<p>They've also been called 'static site generators' or 'flat-file CMSs'. <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">This article</a> explains it like this:</p>
+<p>They're also called 'static site generators' or 'flat-file CMSs'. <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">This article</a> explains it like this:</p>
 
 <blockquote><p>A flat-file CMS is a content management system that stores content in files and folders rather than in a database like a traditional CMS</p></blockquote>
-
-<p>Well said.</p>
 
 <h2>What's the point?</h2>
 
@@ -91,7 +88,7 @@
 
 <h2>It's not just me</h2>
 
-<p>I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>. I'll explain how that went in a moment. And before you accuse me of bandwagon jumping, I started writing this article before I read <a href="http://24ways.org/2013/get-started-with-github-pages/" title="Get Started With GitHub Pages (Plus Bonus Jekyll)">this article on getting started with GitHub Pages</a>, and definitely before I'd even heard of <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">this one about the rise of flat file CMSs</a>.</p>
+<p>I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>. I'll explain how that went in a moment. And before you accuse me of bandwagon jumping, I started writing this article before I read <a href="http://24ways.org/2013/get-started-with-github-pages/" title="Get Started With GitHub Pages (Plus Bonus Jekyll)">this article on getting started with GitHub Pages</a>. And definitely before I'd heard of <a href="http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses" title="A move away from WordPress in 2014?">this one about the rise of flat file CMSs</a>.</p>
 
 <p>I'm just a slow writer.</p>
 
@@ -101,7 +98,7 @@
 
 <p>Yes, I could have just reinstalled WordPress. Yes I could have just recovered the broken database. Actually, I did try <em>both</em> those things but it didn't go well. I then got all existential and decided it was futile. Serves me right for reading.</p>
 
-<p>Anyway, all my site had was a few pages, images, and a couple of blog posts that really didn't need reviving. I asked myself this question:</p>
+<p>Anyway, all my site had was a few pages, images, and a couple of blog posts that didn't need reviving. I asked myself this question:</p>
 
 <blockquote><p>Do I really <em>need</em> WordPress?</p></blockquote>
 
@@ -109,7 +106,7 @@
 
 <blockquote><p>No, I <em>don't</em> need WordPress.</p></blockquote>
 
-<p>That was that. I decided that it was just too bloated for a simple portfolio site. I'd whiled away many not-particularly-enjoyable hours tip-toeing around PHP code and messing with local servers, and not enough time on building the website. I also live in a house with my family and I like to see them now and again (I've no idea if the feeling's mutual).</p>
+<p>That was that. I decided that it was just too bloated for a simple portfolio site. I'd wasted miserable hours tip-toeing around PHP code and messing with local servers. I also live in a house with my family and I like to see them now and again (I hope the feeling's mutual).</p>
 
 <p>I'd heard a bit about Jekyll and noticed that <a href="https://twitter.com/csswizardry">Harry Robert's</a> site, <a href="http://csswizardry.com/" title="CSS Wizardry">CSS Wizardry</a>  uses it.</p>
 
@@ -131,7 +128,7 @@
 <li><strong>Try to Install <em>Xcode</em> again.</strong> After waiting several days (that's how it felt) for <em>Xcode</em> to install, it <em>still</em> fails! Why are you doing this to me! I'm now fumbling around the internet and I've managed to install <em>Command Line Tools</em> (didn't have to install <em>Xcode</em> after all, grrr...). I'll just try installing it again and...IT F*CKING WORKED! I've never been so happy to see so much code I don't understand scrolling past me in Terminal. THANK YOU INTERNET!!!</li>
 <li><strong>Cry a lot (again).</strong> FOR GOD'S SAKE!!!. It <em>hasn't</em> worked. It HAS NOT WORKED.</li>
 <li><strong>Install JSON.</strong> After wiping the blood and tears (no sweat) off the keyboard, and more fumbling around the internet, I've now need to install JSON via the command line too! Why? <em>WHY?</em></li>
-<li><strong>Install something called <em>rdiscount</em>.</strong> What the hell is this now? <em>Another</em> thing to install. ANOTHER THING. What are all these things I need to install?! What are THINGS? I <em>hate</em> the word 'THINGS'. Anyway, I think if I was told I'd need to install something called <em>virus.exe</em> I just do it blindly. I'm feeling desperate now.</li>
+<li><strong>Install something called <em>rdiscount</em>.</strong> What the hell is this now? <em>Another</em> thing to install. ANOTHER THING. What are all these things I need to install?! What are THINGS? I <em>hate</em> the word 'THINGS'. Anyway, I think if I was told I'd need to install something called <em>virus.exe</em> I just do it. I'm feeling desperate now.</li>
 <li><strong>Celebrate wildly</strong> OH SWEET JESUS! It worked! I think it <em>really</em> worked!</li>
 </ul>
 
@@ -140,13 +137,13 @@
 
 <h2>Working with it</h2>
 
-<p>Once it was installed, it was very easy to work with. You can follow a tutorial on the official <a href="http://jekyllrb.com/docs/home/">Jekyll</a> site to see what I mean.</p>
+<p>Once I'd installed Jekyll, it was easy to work with. You can follow a tutorial on the official <a href="http://jekyllrb.com/docs/home/">Jekyll</a> site to see what I mean.</p>
 
-<p>As it's based on flat files, it's <em>very</em> easy to get going with and this also makes it easy for it to fit in with a SASS/LESS workflow as there's very little to get in the way.</p>
+<p>As it's based on flat files, it's <em>very</em> easy to get going with and this also makes it easy for it to fit in with a SASS/LESS workflow as there's little to get in the way.</p>
 
 <h2>Hosting with GitHub Pages</h2>
 
-<p>This is one of the best bits. You can host your site on GitHub Pages for free. This is also <em>very</em> easy to do and you can even use your own custom domain name.</p>
+<p>This is one of the best bits. You can host your site on GitHub Pages for free. This is also easy to do and you can even use your own custom domain name.</p>
 
 <p>It takes a small amount of setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and the files are deployed.</p>
 
@@ -156,11 +153,11 @@
 
 <p>Unless you pay for a private GitHub account, your source code will be available for the world to see. Is this a big problem? That's up to you to decide.</p>
 
-<p>Also, this won't really work if you have a dynamic website. Probably best to stick with WordPress for that.</p>
+<p>Also, this won't work if you have a dynamic website. Stick with WordPress for that.</p>
 
 <h2>Summary</h2>
 
-<p>Here's my incredibly brief summary on using Jekyll for a small website:</p>
+<p>Here's my short summary on using Jekyll for a small website:</p>
 
 <ul>
 <li>Complete bitch to set up for someone allergic to the command line like me.</li>
@@ -168,7 +165,7 @@
 </ul>
 
 
-<p>Making changes is easy and fits in better with my current workflow than WordPress. Whil it's an excellent CMS, WordPress is just too overblown for a static site like mine.</p>
+<p>Making changes is easy and fits in better with my current workflow than WordPress. While it's an excellent CMS, WordPress is just too overblown for a static site like mine.</p>
 
 <h2>Useful links</h2>
 

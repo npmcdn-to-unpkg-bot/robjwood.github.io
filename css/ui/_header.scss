@@ -14,29 +14,18 @@ header {
 }
 
 	.logo a {
-		background: $Yellow;
-		color: $Black;
+		background: $Black;
+		color: $MartLightBlue;
 		display: inline-block;
-		font-family: $brand-secondary-face;
+		font-family: $logo-face;
 		font-size: 100%;
-		font-weight: 700;
-		letter-spacing: -1px;
+		font-weight: 100;
 		padding: $half-spacing-unit/1.6 $half-spacing-unit;
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 
 	.logo a:hover {
 		background: $Black;
 		color: $Yellow;
 	}
-	
-
-.tagline {
-	color: $Black;
-	font-family: $brand-face;
-	font-size: 80%;
-	font-style: italic;
-	font-weight: 700;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}

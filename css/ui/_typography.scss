@@ -7,16 +7,30 @@
 
 h1, h2, h3 {
 	color: $Black;
-	font-family: $brand-secondary-face;
-	font-weight: 700;
 	margin-bottom: $half-spacing-unit;
+}
+
+h1 {
+	font-family: $brand-face;
+	font-weight: 700;
 	letter-spacing: -1px;
 }
 
+h2, h3 {
+	font-family: $brand-secondary-face;
+	font-weight: 500;
+}
+
+.intro {
+	font-family: $brand-secondary-face;
+	font-size: 26px;
+	font-style: normal;
+}
+
 blockquote {
-	border-left: $base-spacing-unit/3 solid $Yellow;
+	border-left: $base-spacing-unit/3 solid $MartLightBlue;
 	color: #777;
-	font-family: $brand-face;
+	font-family: $brand-secondary-face;
 	font-style: italic;
 	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;
 	margin: $base-spacing-unit 0

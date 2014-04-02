@@ -13,11 +13,13 @@
 
 	.site-nav a {
 		background: none;
-		color: $Black;
+		color: $MartLightBlue;
 		font-family: $brand-secondary-face;
 		font-size: 100%;
 		font-weight: 400;
+		letter-spacing: 1px;
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 
 	.site-nav a:hover {
