@@ -13,13 +13,14 @@ html {
 
 a {
 	// background: $Yellow;
-	color: $MartRed;
+	color: $brand-action-color;
+	text-decoration: none;
 }
 
 a:hover {
-	background: $MartRed;
-	color: $White;
-	text-decoration: none;
+	// background: $Black;
+	// color: $Yellow;
+	text-decoration: underline;
 }
 
 li {
@@ -27,7 +28,8 @@ li {
 }
 
 hr {
-	border: 1px solid $Grey;
+	border: 1px solid $GreyLight;
+	margin-bottom: 0;
 }
 
 
@@ -59,3 +61,16 @@ hr {
 .main-content {
 	margin: $base-spacing-unit*2 0;
 }
+
+.dotted {
+	background-image: -webkit-repeating-radial-gradient(center center, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 1px, transparent 1px, transparent 100%);
+	background-image: -moz-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+	background-image: -ms-repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+	background-image: repeating-radial-gradient(center center, rgba(0,0,0,.2), rgba(0,0,0,.2) 1px, transparent 1px, transparent 100%);
+	-webkit-background-size: 3px 3px;
+	-moz-background-size: 3px 3px;
+	background-size: 3px 3px;
+ }
+
+
+

@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-family: $brand-face;
+	font-family: $brand-secondary-face;
 	font-weight: 700;
 	letter-spacing: -1px;
 }
@@ -28,7 +28,7 @@ h2, h3 {
 }
 
 blockquote {
-	border-left: $base-spacing-unit/3 solid $MartLightBlue;
+	border-left: $base-spacing-unit/3 solid $brand-secondary-color;
 	color: #777;
 	font-family: $brand-secondary-face;
 	font-style: italic;

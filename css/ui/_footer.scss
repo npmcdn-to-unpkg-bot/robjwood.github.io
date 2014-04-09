@@ -10,8 +10,17 @@ footer {
 	padding: $base-spacing-unit*2 0;
 }
 
-	footer p {
-		color: #646464;
-		font-size: 85%;
-		font-weight: 300;
+	footer .island {
+		background: $White;
 	}
+
+		footer p {
+			color: $Black;
+			font-family: $brand-secondary-face;
+			font-size: 85%;
+			font-weight: 400;
+		}
+
+		footer p em {
+			font-weight: 500;
+		}	
