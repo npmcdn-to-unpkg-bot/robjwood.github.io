@@ -12,15 +12,13 @@ html {
 }
 
 a {
-	// background: $Yellow;
 	color: $brand-action-color;
-	text-decoration: none;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 a:hover {
-	// background: $Black;
-	// color: $Yellow;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 li {

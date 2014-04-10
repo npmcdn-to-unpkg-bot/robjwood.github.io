@@ -48,9 +48,9 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           44px;		// .alpha
-$h2-size:           27px; 		// .beta
-$h3-size:           21.505px;	// .gamma
+$h1-size:           46px;		// .alpha
+$h2-size:           30px; 		// .beta
+$h3-size:           24px;		// .gamma
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
@@ -72,7 +72,7 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    20px;
+$base-font-size:    18px;
 $base-line-height:  28px;
 
 // $base-font-size:    20px;
@@ -93,12 +93,12 @@ $desk-wide-start:   1200px;
 \*------------------------------------*/
 
 // Brand stuff
-$brand-color:       		rgba(210,70,5,1);
+$brand-color:       		rgba(0,85,155,1);
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        		"abril-text-1","abril-text-2", serif;
+$brand-face:        		"adelle-1","adelle-2", serif;
 $brand-secondary-face:      "tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
 $logo-face:					"tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
 
@@ -106,6 +106,7 @@ $logo-face:					"tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helveti
 // "tablet-gothic-condensed-1","tablet-gothic-condensed-2"
 // "tablet-gothic-wide-1","tablet-gothic-wide-2"
 // "tablet-gothic-1","tablet-gothic-2"
+// "adelle-1","adelle-2"
 
 
 // font-family: 'PT Sans', sans-serif;
