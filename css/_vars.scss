@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    18px;
-$base-line-height:  28px;
+$base-font-size:    16px;
+$base-line-height:  26px;
 
 // $base-font-size:    20px;
 // $base-line-height:  28px;
@@ -98,7 +98,7 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        		"adelle-1","adelle-2", serif;
+$brand-face:        		"Open Sans", serif;
 $brand-secondary-face:      "tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
 $logo-face:					"tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
 
@@ -131,7 +131,7 @@ $brand-round:        		2px;
 // $heading-face:      		"Helvetica Neue", Helvetica, sans-serif;
 // $heading-face:      		'Roboto Slab', Georgia, serif;
 
-$Black: 					rgba(50,50,50,1);
+$Black: 					rgba(0,0,0,1);
 $White: 					rgba(254,254,254,1);
 $Grey:						rgba(220,220,220,1);
 $GreyLight:					rgba(240,240,240,1);
