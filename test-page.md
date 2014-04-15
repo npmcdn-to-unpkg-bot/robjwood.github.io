@@ -5,7 +5,7 @@ permalink: /test-page/
 
 # Goodbye WordPress, hello Jekyll
 
-<!-- <p class="intro">This is where the introductory paragraph will go. It will be a short intro to the article and will summarise what the content's conclusion is to help the reader.</p> -->
+<p class="intro drop-cap">This is where the introductory paragraph will go. It will be a short intro to the article and will summarise what the content's conclusion is to help the reader.</p>
 
 You may be staring at these words dead-eyed but if you _do_ have a hand in the air then have you ever considered using a flat-file CMS (you can put your hand down now)? They're also called 'static site generators' or 'flat-file CMSs'. [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it. Apart from the ease of working with just HTML for writing templates, you can also host your site _for free_ using GitHub pages.
 

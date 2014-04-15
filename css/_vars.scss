@@ -48,9 +48,9 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           46px;		// .alpha
-$h2-size:           30px; 		// .beta
-$h3-size:           24px;		// .gamma
+$h1-size:           36px;		// .alpha
+$h2-size:           20px; 		// .beta
+$h3-size:           14px;		// .gamma
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    16px;
-$base-line-height:  26px;
+$base-font-size:    14px;
+$base-line-height:  25px;
 
 // $base-font-size:    20px;
 // $base-line-height:  28px;
@@ -93,14 +93,14 @@ $desk-wide-start:   1200px;
 \*------------------------------------*/
 
 // Brand stuff
-$brand-color:       		rgba(0,85,155,1);
+$brand-color:       		rgba(33,127,190,1);
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        		"open-sans-1","open-sans-2", sansserif;
-$brand-secondary-face:      "tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
-$logo-face:					"tablet-gothic-condensed-1","tablet-gothic-condensed-2", Helvetica, sans-serif;
+$brand-face:        		"Open Sans", sans-serif;
+$brand-secondary-face:      "Open Sans Condensed", sans-serif;
+$logo-face:					"Open Sans Condensed", sans-serif;
 
 // "abril-text-1","abril-text-2"
 // "tablet-gothic-condensed-1","tablet-gothic-condensed-2"

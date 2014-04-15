@@ -22,16 +22,33 @@ h2, h3 {
 }
 
 .intro {
-	font-family: $brand-secondary-face;
-	font-size: 26px;
+	font-family: $brand-face;
+	font-size: 17px;
 	font-style: normal;
+	font-weight: 100;
+	line-height: 1.6;
 }
 
 blockquote {
-	border-left: $base-spacing-unit/3 solid $brand-secondary-color;
-	color: #777;
-	font-family: $brand-secondary-face;
-	font-style: italic;
+	border-left: $base-spacing-unit/3 solid $brand-color;
+	color: $brand-color;
+	font-family: $brand-face;
+	line-height: 1.6;
+	font-size: 18px;
+	font-style: normal;
 	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;
-	margin: $base-spacing-unit 0
+	margin: $base-spacing-unit*1.5 0
 }	
+
+
+.drop-cap:first-letter{
+	margin-top: 5px;
+	margin-right: 10px;
+	float: left;
+	margin-left: -3px;
+	font-family: "Open Sans";
+	font-weight: 700;
+	height: 65px;
+	line-height: 65px;
+	font-size: 85px;
+}
