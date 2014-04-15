@@ -16,11 +16,13 @@ footer {
 
 		footer p {
 			color: $Black;
-			font-family: $brand-secondary-face;
-			font-size: 100%;
+			font-family: $brand-face;
+			font-size: $base-font-size*0.8;
 			font-weight: 400;
+			margin-bottom: $base-font-size*0.8;
 		}
 
 		footer p em {
+			font-style: normal;
 			font-weight: 700;
 		}	
