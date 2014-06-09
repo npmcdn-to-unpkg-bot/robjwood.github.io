@@ -6,7 +6,7 @@
  */
 
 header {
-	border-bottom: 1px dotted $Black;
+	border-bottom: 3px solid $Black;
 	padding: $base-spacing-unit/2 0;
 }
 
@@ -20,7 +20,6 @@ header {
 		display: inline-block;
 		font-family: $logo-face;
 		font-weight: 700;
-		letter-spacing: -1px;
 		padding: $half-spacing-unit/1.6 0;
 		text-decoration: none;
 		text-transform: uppercase;

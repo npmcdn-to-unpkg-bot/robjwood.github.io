@@ -72,7 +72,7 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    15px;
+$base-font-size:    16px;
 $base-line-height:  25px;
 
 // $base-font-size:    20px;
@@ -93,29 +93,21 @@ $desk-wide-start:   1200px;
 \*------------------------------------*/
 
 // Brand stuff
-$brand-color:       		rgba(33,127,190,1);
+$brand-color:       		rgba(0,160,50,1);
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        		"Open Sans", sans-serif;
-$brand-secondary-face:      "Open Sans Condensed", sans-serif;
-$logo-face:					"Open Sans Condensed", sans-serif;
+$brand-face:        	"adelle-1","adelle-2", serif;
+$brand-secondary-face:	"futura-pt-1","futura-pt-2", sans-serif;
+$logo-face:				$brand-secondary-face;
 
-// "abril-text-1","abril-text-2"
-// "tablet-gothic-condensed-1","tablet-gothic-condensed-2"
-// "tablet-gothic-wide-1","tablet-gothic-wide-2"
-// "tablet-gothic-1","tablet-gothic-2"
-// "adelle-1","adelle-2"
-
-
-// font-family: 'PT Sans', sans-serif;
-// font-family: 'PT Sans Narrow', sans-serif;
-// font-family: 'PT Serif', serif;
-// font-family: 'Gentium Book Basic', serif;
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Open Sans Condensed', sans-serif;
-
+/*
+"futura-pt-1","futura-pt-2"
+"futura-pt-condensed-1","futura-pt-condensed-2"
+"adelle-1","adelle-2"
+"alternate-gothic-no-1-d-1","alternate-gothic-no-1-d-2"
+*/
 
 $brand-round:        		2px;
 
@@ -131,7 +123,7 @@ $brand-round:        		2px;
 // $heading-face:      		"Helvetica Neue", Helvetica, sans-serif;
 // $heading-face:      		'Roboto Slab', Georgia, serif;
 
-$Black: 					rgba(70,70,70,1);
+$Black: 					rgba(20,20,20,1);
 $White: 					rgba(254,254,254,1);
 $Grey:						rgba(220,220,220,1);
 $GreyLight:					rgba(240,240,240,1);
