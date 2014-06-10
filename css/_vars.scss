@@ -48,7 +48,7 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           36px;		// .alpha
+$h1-size:           50px;		// .alpha
 $h2-size:           20px; 		// .beta
 $h3-size:           14px;		// .gamma
 
@@ -72,11 +72,9 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    16px;
-$base-line-height:  25px;
+$base-font-size:    18px;
+$base-line-height:  28px;
 
-// $base-font-size:    20px;
-// $base-line-height:  28px;
 $base-font-family:  serif;
 
 // Responsive breakpoints
@@ -93,7 +91,7 @@ $desk-wide-start:   1200px;
 \*------------------------------------*/
 
 // Brand stuff
-$brand-color:       		rgba(0,160,50,1);
+$brand-color:       		#c2a572;
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 

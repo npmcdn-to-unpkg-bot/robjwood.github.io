@@ -12,11 +12,11 @@
 }
 
 	.site-nav a {
-		color: $brand-color;
+		border-bottom: none;
+		color: $Black;
 		font-family: $brand-secondary-face;
 		font-weight: 700;
 		text-decoration: none;
-		text-transform: uppercase;
 	}
 
 	.site-nav a:hover {
