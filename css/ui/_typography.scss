@@ -11,7 +11,8 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-family: $brand-secondary-face;
+	font-family: $brand-face;
+	font-style: italic;
 	font-weight: 700;
 	margin-bottom: $base-spacing-unit;
 }
@@ -22,13 +23,10 @@ h2, h3 {
 }
 
 .intro {
-	border-top: 1px solid $Black;
-	border-bottom: 1px solid $Black;
-
 	font-family: $brand-face;
 	font-size: $base-font-size*1.2;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 300;
 	line-height: 1.6;
 	padding: 6px;
 	text-transform: uppercase;
@@ -50,7 +48,7 @@ blockquote {
 	margin-right: 10px;
 	float: left;
 	margin-left: -3px;
-	font-family: "Open Sans";
+	font-family: $brand-face;
 	font-weight: 700;
 	height: 65px;
 	line-height: 65px;

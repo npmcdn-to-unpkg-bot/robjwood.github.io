@@ -48,7 +48,7 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           50px;		// .alpha
+$h1-size:           36px;		// .alpha
 $h2-size:           20px; 		// .beta
 $h3-size:           14px;		// .gamma
 
@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    18px;
-$base-line-height:  28px;
+$base-font-size:    16px;
+$base-line-height:  24px;
 
 $base-font-family:  serif;
 
@@ -96,15 +96,15 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        	"adelle-1","adelle-2", serif;
-$brand-secondary-face:	"futura-pt-1","futura-pt-2", sans-serif;
-$logo-face:				$brand-secondary-face;
+$brand-face:        	"adelle-sans-1","adelle-sans-2", serif;
+$brand-secondary-face:	"adelle-1","adelle-2", sans-serif;
+$logo-face:				$brand-face;
 
 /*
-"futura-pt-1","futura-pt-2"
-"futura-pt-condensed-1","futura-pt-condensed-2"
+
+"adelle-sans-1","adelle-sans-2"
 "adelle-1","adelle-2"
-"alternate-gothic-no-1-d-1","alternate-gothic-no-1-d-2"
+
 */
 
 $brand-round:        		2px;
