@@ -96,12 +96,12 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        	"adelle-sans-1","adelle-sans-2", serif;
-$brand-secondary-face:	"adelle-1","adelle-2", sans-serif;
+$brand-face:        	"Roboto", serif;
+$brand-secondary-face:	$brand-face, sans-serif;
 $logo-face:				$brand-face;
 
 /*
-
+"abril-text-1","abril-text-2"
 "adelle-sans-1","adelle-sans-2"
 "adelle-1","adelle-2"
 
