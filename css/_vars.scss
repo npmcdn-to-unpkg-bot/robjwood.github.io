@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    15px;
-$base-line-height:  22px;
+$base-font-size:    18px;
+$base-line-height:  26px;
 
 $base-font-family:  serif;
 
@@ -96,8 +96,8 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        	"Roboto", serif;
-$brand-secondary-face:	"Open Sans", sans-serif;
+$brand-face:        	"tablet-gothic-1","tablet-gothic-2", serif;
+$brand-secondary-face:	"abril-text-1","abril-text-2", sans-serif;
 $logo-face:				$brand-face;
 
 /*
@@ -105,6 +105,7 @@ $logo-face:				$brand-face;
 "adelle-sans-1","adelle-sans-2"
 "adelle-1","adelle-2"
 
+"tablet-gothic-1","tablet-gothic-2"
 */
 
 $brand-round:        		2px;
