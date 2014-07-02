@@ -12,30 +12,27 @@ h1, h2, h3 {
 
 h1 {
 	font-family: $brand-face;
-	font-weight: 700;
+	font-weight: 600;
 	margin-bottom: $base-spacing-unit;
 }
 
 h2, h3 {
-	font-family: $brand-face;
-	font-weight: 700;
+	font-family: $brand-nav-face;
+	font-weight: 600;
 }
 
 .intro {
-	font-family: $brand-face;
-	font-size: $base-font-size*1.2;
-	font-style: normal;
+	font-family: $brand-secondary-face;
+	font-size: $base-font-size*1.4;
+	font-style: italic;
 	font-weight: 300;
 	line-height: 1.6;
-	padding: 6px;
-	text-transform: uppercase;
 }
 
 blockquote {
 	border-left: $base-spacing-unit/3 solid $Black;
 	color: $Black;
 	line-height: 1.6;
-	font-family: $brand-face;
 	font-size: 18px;
 	font-style: italic;
 	padding: $half-spacing-unit 0 $half-spacing-unit $base-spacing-unit;

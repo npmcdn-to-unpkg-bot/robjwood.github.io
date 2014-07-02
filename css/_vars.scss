@@ -48,9 +48,9 @@ $giga-size:         101px!default;
 $mega-size:         82px!default;
 $kilo-size:         57px!default;
 
-$h1-size:           36px;		// .alpha
-$h2-size:           20px; 		// .beta
-$h3-size:           14px;		// .gamma
+$h1-size:           42px;		// .alpha
+$h2-size:           22px; 		// .beta
+$h3-size:           16px;		// .gamma
 
 $milli-size:        12px!default;
 $micro-size:        10px!default;
@@ -96,9 +96,10 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        	"tablet-gothic-1","tablet-gothic-2", serif;
+$brand-face:        	"tablet-gothic-condensed-1","tablet-gothic-condensed-2",serif;
 $brand-secondary-face:	"abril-text-1","abril-text-2", sans-serif;
-$logo-face:				$brand-face;
+$brand-nav-face:       	"tablet-gothic-1","tablet-gothic-2",serif;
+$logo-face:				$brand-nav-face;
 
 /*
 "abril-text-1","abril-text-2"
@@ -106,6 +107,7 @@ $logo-face:				$brand-face;
 "adelle-1","adelle-2"
 
 "tablet-gothic-1","tablet-gothic-2"
+"urbana-1","urbana-2"
 */
 
 $brand-round:        		2px;
