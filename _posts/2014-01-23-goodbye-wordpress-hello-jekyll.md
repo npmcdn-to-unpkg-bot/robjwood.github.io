@@ -13,7 +13,7 @@ layout: blog-post
 - You would like to host your site for free on a reliable platform.
 - You're a little bit scared of databases (even though you act all tough in front of your friends).
 
-You may be staring at these words dead-eyed but if you _do_ have a hand in the air then have you ever considered using a flat-file CMS?
+If you have a hand in the air then have you ever considered using a flat-file CMS?
 
 ## A what?
 
