@@ -4,22 +4,13 @@ layout: blog-post
 
 # Goodbye WordPress, hello Jekyll
 
-<p class="intro">Raise your hand if any of the following are true:</p>
+<p class="intro">Jekyll is a great choice for a simple static site but the evil Mr. Hyde of this story is the installation.</p>
 
-- You have a simple site
-- You like writing in Markdown.
-- You use GitHub.
-- You've had _any_ frustrations with WordPress.
-- You would like to host your site for free on a reliable platform.
-- You're a little bit scared of databases (even though you act all tough in front of your friends).
+While installing a security update for WordPress the auto-update failed. After taking my head out of my hands I decided to give Jekyll a go. I'd heard about it but the only thing I really knew was that it used flat-files rather than PHP and a database.  
 
-If you have a hand in the air then have you ever considered using a flat-file CMS?
+They're also called 'static site generators' or 'flat-file CMSs'. [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it as a:
 
-## A what?
-
-You heard. They're also called 'static site generators' or 'flat-file CMSs'. [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it like this:
-
-> A flat-file CMS is a content management system that stores content in files and folders rather than in a database like a traditional CMS
+> ...content management system that stores content in files and folders rather than in a database like a traditional CMS
 
 ## What's the point?
 
