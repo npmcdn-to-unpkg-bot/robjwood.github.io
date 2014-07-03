@@ -6,38 +6,18 @@ layout: blog-post
 
 <p class="intro">Jekyll is a great choice for a simple static site but the evil Mr. Hyde of this story is the installation.</p>
 
-While installing a security update for WordPress the auto-update failed. After taking my head out of my hands I decided to give Jekyll a go. I'd heard about it but the only thing I really knew was that it used flat-files rather than PHP and a database.  
+While installing a security update for WordPress the auto-update failed. After taking my head out of my hands I decided to give [Jekyll](http://jekyllrb.com/ "Jekyll") a go. I'd heard about it before from reading Harry Robert's site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry") but the extent of my knowledge of it can be summed up by this description from [Type &amp; Grids](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?"): 
 
-They're also called 'static site generators' or 'flat-file CMSs'. [This article](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?") explains it as a:
+> A flat-file CMS is a content management system that stores content in files and folders rather than in a database like a traditional CMS
 
-> ...content management system that stores content in files and folders rather than in a database like a traditional CMS
-
-## What's the point?
-
-Apart from the ease of working with just HTML for writing templates, you can also host your site _for free_ using GitHub pages. 
-
-I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out [Jekyll](http://jekyllrb.com/ "Jekyll"). I'll explain how that went in a moment. And before you accuse me of bandwagon jumping, I started writing this article before I read [this article on getting started with GitHub Pages](http://24ways.org/2013/get-started-with-github-pages/ "Get Started With GitHub Pages (Plus Bonus Jekyll)"). And definitely before I'd heard of [this one about the rise of flat file CMSs](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?"). I'm just a slow writer.  
-    
-## So why now Mr. Bandwagon Jumper?
-
-A failed WordPress update. Yes, I tried reinstalled WordPress and recovering the broken database but that didn't work. Anyway, my site only had a few pages, images and a couple of blog posts that didn't need reviving. I asked myself this question:
-
-> Do I really _need_ WordPress?
-
-I looked out of the window for inspiration. All I saw was the top of a flat and a pigeon. I turned back to my monitor and looked at the database error again. 
-
-> No, I _don't_ need WordPress.
-
-That was that. I decided that it was just too bloated for a simple portfolio site. I'd wasted miserable hours tip-toeing around PHP code and messing with local servers. I also live in a house with my family and I like to see them now and again (I hope the feeling's mutual).
-
-I'd heard a bit about Jekyll and noticed that [Harry Robert's](https://twitter.com/csswizardry) site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry")  uses it. Time for action...
+I thought 'What could possibly go wrong?' and gave it a go...  
 
 ## Installing Jekyll
 
-This isn't a how-to guide. This is a personal account of how it went for me. I've decided to keep it raw and messy to get across how I felt. You can skip this is you want. It contains swearing and exclamation marks:
+This is most definitely _not_ a how-to guide. This is a personal account of how it went for me. It contains swearing and exclamation marks:
 
 - **Load up the official [Jekyll docs](http://jekyllrb.com/docs/home/).** That's easy.
-- **Open Terminal.** Oh God. I knew I'd have to do this. It's OK. It does scare the hell out of me though. After an hour of typing gibberish into a black window, it _still_ hasn't installed. Shit.
+- **Open Terminal.** Oh God, I just _knew_ I'd have to do this. It's OK but it does scare the hell out of me. After an hour of typing gibberish into a black window, it _still_ hasn't installed. Shit.
 - **Install _Ruby_, _Sudo_, _Command line Tools_ in _Xcode_ and other stuff.** _Why?_
 - **Update to the latest version of _Ruby_.** Bugger. It hasn't bloody worked. 
 - **Install _Xcode_.** Er, OK. It's so I can install _Command Line Tools_ apparently? What the hell _for_? WHY?
@@ -51,6 +31,13 @@ This isn't a how-to guide. This is a personal account of how it went for me. I'v
 - **Celebrate wildly** OH SWEET JESUS! It worked! I think it _really_ worked!
 
 You get the picture. It was a pain.
+
+## Why bother?
+
+Apart from being able to work primarily with HTML for writing templates, you can also host your site _for free_ using GitHub pages. 
+
+I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out [Jekyll](http://jekyllrb.com/ "Jekyll"). I'll explain how that went in a moment. And before you accuse me of bandwagon jumping, I started writing this article before I read [this article on getting started with GitHub Pages](http://24ways.org/2013/get-started-with-github-pages/ "Get Started With GitHub Pages (Plus Bonus Jekyll)"). And definitely before I'd heard of [this one about the rise of flat file CMSs](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?"). I'm just a slow writer.  
+    
 
 ## Working with it
 
