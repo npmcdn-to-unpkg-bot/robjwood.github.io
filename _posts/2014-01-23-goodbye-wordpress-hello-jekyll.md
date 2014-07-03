@@ -4,15 +4,15 @@ layout: blog-post
 
 # Goodbye WordPress, hello Jekyll
 
-<p class="intro">Jekyll is a great choice for a simple static site but the evil Mr. Hyde of this story is the installation.</p>
+<p class="intro">Jekyll is a great choice for a simple static site but the evil Mr. Hyde of this story is in the installation.</p>
 
-While installing a security update for WordPress the auto-update failed. After taking my head out of my hands I decided to give [Jekyll](http://jekyllrb.com/ "Jekyll") a go. I'd heard about it from Harry Roberts's excellent site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry"). I didn't know much about it but saw it as a way of creating a template for a website without needing PHP or a database.
+While installing a security update for WordPress the auto-update failed. After the familiar sinking feeling I decided to give [Jekyll](http://jekyllrb.com/ "Jekyll") a go. I'd heard about it from Harry Roberts's excellent site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry") and now seemed as good a time as any to try it out. I didn't know much about it other than it allows you to create a template for a website without needing PHP or a database.
 
-I thought 'What could possibly go wrong?' and gave it a go...  
+I thought 'How hard can it be?' and gave it a go...  
 
 ## Installing Jekyll
 
-This is most definitely _not_ a how-to guide. This is a personal account of how it went for me. It contains swearing, the present tense and exclamation marks:
+This is most definitely _not_ a how-to guide. This is my account of how difficult it was (WARNING: Contains swearing, the present tense and too many exclamation marks).
 
 - **Load up the official [Jekyll docs](http://jekyllrb.com/docs/home/).** That bit's easy.
 - **Open Terminal.** Oh God, I just _knew_ I'd have to use this. It scares me. After an hour of typing gibberish into a black window, it _still_ hasn't installed. Shit.
@@ -31,11 +31,9 @@ Yep, it was a pain in the arse.
 
 ## Was it worth it?
 
-Apart from being able to work primarily with HTML for writing templates, you can also host your site _for free_ using GitHub pages. This is easy to do and you can use your own custom domain name. 
+Apart from being able to work primarily with HTML for writing templates, you can also host your site _for free_ using GitHub pages and even use your own domain name. It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and the files are deployed. Here's more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
 
-It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and the files are deployed. You can find more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
-
-Once you're set up, it's easy to work with. You can follow a tutorial on the official [Jekyll](http://jekyllrb.com/docs/home/) site to see what I mean. As it's based on flat files, it's _very_ easy to get going with and this also makes it easy to fit in with a SASS/LESS workflow as there's little to get in the way.
+Once you're set up, it's easy to work with. You can follow a tutorial on the official [Jekyll](http://jekyllrb.com/docs/home/) site to see what I mean. As it's based on flat files, it's _very_ easy to get going with and it's easy to fit it into your SASS/LESS workflow.
 
 ## Things to think about 
 
