@@ -27,11 +27,9 @@ Apart from the ease of working with just HTML for writing templates, you can als
 
 I've seen a rash of articles (one, maybe two) explaining the benefits of using flat-file CMSs. I decided to try out [Jekyll](http://jekyllrb.com/ "Jekyll"). I'll explain how that went in a moment. And before you accuse me of bandwagon jumping, I started writing this article before I read [this article on getting started with GitHub Pages](http://24ways.org/2013/get-started-with-github-pages/ "Get Started With GitHub Pages (Plus Bonus Jekyll)"). And definitely before I'd heard of [this one about the rise of flat file CMSs](http://www.typeandgrids.com/blog/goodbye-wordpress-2014-will-be-the-year-of-flat-file-cmses "A move away from WordPress in 2014?"). I'm just a slow writer.  
     
-## So why now then Mr. Bandwagon Jumper?
+## So why now Mr. Bandwagon Jumper?
 
-A WordPress update failed, that's why. Yes, I could have just reinstalled WordPress. Yes I could have just recovered the broken database. Actually, I did try _both_ those things but it didn't go well. I then got all existential and decided it was futile. Serves me right for reading.
-
-Anyway, all my site had was a few pages, images, and a couple of blog posts that didn't need reviving. I asked myself this question:
+A failed WordPress update. Yes, I tried reinstalled WordPress and recovering the broken database but that didn't work. Anyway, my site only had a few pages, images and a couple of blog posts that didn't need reviving. I asked myself this question:
 
 > Do I really _need_ WordPress?
 
