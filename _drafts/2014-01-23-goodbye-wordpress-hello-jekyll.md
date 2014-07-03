@@ -75,7 +75,7 @@ This isn't a how-to guide. This is a personal account of how it went for me. I'v
 - **I hate the command line**
 - **Try to Install _Xcode_ again.** After waiting several days (that's how it felt) for _Xcode_ to install, it _still_ fails! Why are you doing this to me! I'm now fumbling around the internet and I've managed to install _Command Line Tools_ (didn't have to install _Xcode_ after all, grrr...). I'll just try installing it again and...IT F*CKING WORKED! I've never been so happy to see so much code I don't understand scrolling past me in Terminal. THANK YOU INTERNET!!!
 - **Cry a lot (again).** FOR GOD'S SAKE!!!. It _hasn't_ worked. It HAS NOT WORKED.
-- **Install JSON.** After wiping the blood and tears (no sweat) off the keyboard, and more fumbling around the internet, I've now need to install JSON via the command line too! Why? _WHY?_
+- **Install JSON.** After wiping the blood and tears (no sweat) off the keyboard, and more fumbling around the internet, I now need to install JSON via the command line too! Why? _WHY?_
 - **Install something called _rdiscount_.** What the hell is this now? _Another_ thing to install. ANOTHER THING. What are all these things I need to install?! What are THINGS? I _hate_ the word 'THINGS'. Anyway, I think if I was told I'd need to install something called _virus.exe_ I just do it blindly. I'm feeling desperate now.
 - **Celebrate wildly** OH SWEET JESUS! It worked! I think it _really_ worked!
 
