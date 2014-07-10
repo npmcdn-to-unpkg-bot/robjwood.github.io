@@ -6,7 +6,7 @@ layout: blog-post
 
 <p class="intro">Jekyll is a great choice for a simple static site but the evil Mr. Hyde of this story is in the installation.</p>
 
-While installing a security update for WordPress the auto-update failed. After the familiar sinking feeling I decided to give [Jekyll](http://jekyllrb.com/ "Jekyll") a go. I'd heard about it from Harry Roberts's excellent site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry") and now seemed as good a time as any to try it out. I didn't know much about it other than it allows you to create a template for a website without needing PHP or a database.
+<p class="drop-cap">While installing a security update for WordPress the auto-update failed. After the familiar sinking feeling I decided to give [Jekyll](http://jekyllrb.com/ "Jekyll") a go. I'd heard about it from Harry Roberts's excellent site, [CSS Wizardry](http://csswizardry.com/ "CSS Wizardry") and now seemed as good a time as any to try it out. I didn't know much about it other than it allows you to create a template for a website without needing PHP or a database.
 
 I thought 'How hard can it be?' and gave it a go...  
 

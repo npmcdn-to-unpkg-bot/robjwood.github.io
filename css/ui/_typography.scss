@@ -12,13 +12,15 @@ h1, h2, h3 {
 
 h1 {
 	font-family: $brand-face;
-	font-weight: 600;
+	font-weight: 400;
+	letter-spacing: 1px;
 	margin-bottom: $base-spacing-unit;
+	text-transform: uppercase;
 }
 
 h2, h3 {
 	font-family: $brand-nav-face;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .intro {
