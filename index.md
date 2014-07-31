@@ -2,10 +2,31 @@
 layout: homepage
 ---
 
-# I’m a web developer from the Midlands...
+# I’m a web developer from the Midlands
 
-...and I'm currently redeveloping this website.
 
-In the meantime, you can find me here:
+<div class="enterprise-wrap">
+    <a href="/enterprise/" class="island">
+        <h2>Enterprise Inns</h2>
+    </a>
+</div>
 
-[LinkedIn](http://uk.linkedin.com/in/therobwood/)
+<div class="npower-wrap">
+    <a href="/npower/" class="island">
+        <h2>npower</h2>
+    </a>
+</div>
+
+<div class="swm-wrap">
+    <a href="/screen-west-midlands/" class="island">
+        <h2>Screen West Midlands</h2>
+    </a>
+</div>
+
+<div class="al-wrap">
+    <a href="/alliance-and-leicester/" class="island">
+        <h2>Alliance &amp; Leicester</h2>
+    </a>
+</div>
+
+

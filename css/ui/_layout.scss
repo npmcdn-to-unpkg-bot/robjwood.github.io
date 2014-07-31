@@ -37,7 +37,7 @@ hr {
 .wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: $base-spacing-unit*28;
+	max-width: $base-spacing-unit*22;
 	padding: 0 $half-spacing-unit;
 }
 
@@ -69,6 +69,25 @@ hr {
 	-moz-background-size: 3px 3px;
 	background-size: 3px 3px;
  }
+
+.enterprise-wrap	{ background: $ETI-500; }
+.npower-wrap 		{ background: $npower-500; }
+.swm-wrap 			{ background: $swm-500; }
+.al-wrap 			{ background: $al-500; }
+
+.enterprise-wrap,
+.npower-wrap,
+.swm-wrap,
+.al-wrap {
+	a {
+		border-bottom: 0;
+	}
+
+	h2 {
+		color: $White;
+	}
+}
+
 
 
 

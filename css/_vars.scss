@@ -44,16 +44,16 @@ $use-lozenges:      true;
 /**
  * Font-sizes (in pixels). Refer to relevant sections for their implementations.
  */
-$giga-size:         101px!default;
-$mega-size:         82px!default;
-$kilo-size:         57px!default;
+$giga-size:         112px!default;
+$mega-size:         56px!default;
+$kilo-size:         45px!default;
 
-$h1-size:           42px;		// .alpha
-$h2-size:           26px; 		// .beta
+$h1-size:           47px;		// .alpha
+$h2-size:           24px; 		// .beta
 $h3-size:           20px;		// .gamma
 
-$milli-size:        12px!default;
-$micro-size:        10px!default;
+$milli-size:        14px!default;
+$micro-size:        12px!default;
 
 $use-rules:         false;
 $use-stats:         false;
@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    15px;
-$base-line-height:  24px;
+$base-font-size:    18px;
+$base-line-height:  26px;
 
 $base-font-family:  serif;
 
@@ -90,27 +90,22 @@ $desk-wide-start:   1200px;
     $FONT-SIZES
 \*------------------------------------*/
 
-// Brand stuff
+// Colours
 $brand-color:       		#c2a572;
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
+// $brand-face:        	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
+// $brand-secondary-face:	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
+// $brand-nav-face:       	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
 
-$brand-face:        	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
-$brand-secondary-face:	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
-$brand-nav-face:       	"jaf-facitweb-1","jaf-facitweb-2", sans-serif;
+$brand-face:        	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+$brand-secondary-face:	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+$brand-nav-face:       	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+
+
 $logo-face:				$brand-nav-face;
-
-/*
-"jaf-facitweb-1","jaf-facitweb-2"
-
-"chaparral-pro-1","chaparral-pro-2"
-"abril-text-1","abril-text-2"
-"tablet-gothic-1","tablet-gothic-2"
-"tablet-gothic-condensed-1","tablet-gothic-condensed-2"
-*/
-
-$brand-round:        		2px;
+$brand-round:      		2px;
 
 
 
@@ -121,10 +116,21 @@ $brand-round:        		2px;
  * Place any of your own variables that sit on top of inuit.css here.
  */
 
-// $heading-face:      		"Helvetica Neue", Helvetica, sans-serif;
-// $heading-face:      		'Roboto Slab', Georgia, serif;
+$ETI-500:					rgba(26,35,126,1);
+$npower-500:				rgba(244,67,54,1);
+$swm-500:					rgba(0,188,212,1);
+$al-500:					rgba(255,87,34,1);
 
-$Black: 					rgba(0,0,0,1);
+
+
+$Black: 					rgba(0,0,0,0.87);
+
+// $h1-colour:					rgba(0,0,0,0.54);
+
+$Text:						$Black;
+$SecondaryText:				rgba(0,0,0,0.54);
+$Dividers:					rgba(0,0,0,0.12);
+
 $White: 					rgba(254,254,254,1);
 $Grey:						rgba(220,220,220,1);
 $GreyLight:					rgba(240,240,240,1);
@@ -132,20 +138,3 @@ $Green:						rgba(50,130,50,1);
 $Red:						rgba(217,70,28,1);
 $Blue:						rgba(4,75,91,1);
 $Yellow:					rgba(230,255,0,1);
-
-// 'M' theme
-$MPurple:					#2b115a; // Purple
-$MBlue:						#008ac9; // Blue
-$MRed:						#f11a22; // Red
-
-// Martini theme
-$MartDarkBlue:				#00386B; // Dark blue
-$MartLightBlue:				#82C6E2; // Light blue
-$MartRed:					#E8112D; // Red
-
-// Villa
-$VGold:						#FCE100;
-
-
-
-
