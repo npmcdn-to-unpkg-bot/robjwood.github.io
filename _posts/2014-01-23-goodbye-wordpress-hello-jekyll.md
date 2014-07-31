@@ -31,7 +31,7 @@ Yep, it was a pain in the arse.
 
 ## Was it worth it?
 
-Being able to work primarily with HTML for writing templates is great. Yyou can also host your site for free using GitHub pages and even use your own domain name. It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and it will deploy the files. Here's more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
+Being able to work primarily with HTML for writing templates is great. You can also host your site for free using GitHub pages and even use your own domain name. It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and it will deploy the files. Here's more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
 
 Once you're set up, it's easy to work with. You can follow a tutorial on the official [Jekyll](http://jekyllrb.com/docs/home/) site to see what I mean. As it's based on flat files, it's easy to get going with and it's easy to fit it into your SASS/LESS workflow.
 
