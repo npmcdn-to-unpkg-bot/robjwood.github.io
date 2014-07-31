@@ -23,7 +23,7 @@ This is most definitely _not_ a how-to guide. This is my account of how difficul
 - **Install older version _Xcode_.** I've got to go to the developer site and try to find it. The installed file size is over 3.54GB! I don't have that much space left on my hard drive. I need to delete some stuff before I can carry on! It's late. Go to bed. And stop talking to yourself.
 - **Try to Install _Xcode_ again.** After waiting for what felt like _hours_ it to install, it _still_ fails! Why?! I'm now fumbling around the internet and I've managed to install _Command Line Tools_ (I didn't have to install _Xcode_ after all). I'll just try installing it again and...IT WORKED! Terminal is going crazy. I've never been so happy to see so much code I don't understand scrolling down my screen. Hold on ... OH FOR GOD'S SAKE!!! It _hasn't_ worked. It HAS NOT WORKED.
 - **Install JSON.** After _more_ fumbling around the internet, I now need to install JSON via the command line too! Why?
-- **Install something called _rdiscount_.** What the hell is this? _Another_ thing to install. ANOTHER THING. What are all these things?! I'm feeling desperate now. If I was told to install something called _virus.exe_ I think I'd just do it. 
+- **Install something called _rdiscount_.** What the hell is this? _Another_ thing to install. ANOTHER THING. What are all these things?! I'm feeling desperate now. If the message told me to install something called _virus.exe_ I think I'd just do it. 
 - **Celebrate** OH SWEET JESUS! It worked! It _actually_ worked!
 
 Yep, it was a pain in the arse.
@@ -31,9 +31,9 @@ Yep, it was a pain in the arse.
 
 ## Was it worth it?
 
-Apart from being able to work primarily with HTML for writing templates, you can also host your site for free using GitHub pages and even use your own domain name. It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and the files are deployed. Here's more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
+Being able to work primarily with HTML for writing templates is great. Yyou can also host your site for free using GitHub pages and even use your own domain name. It takes a little setting up but this makes deployment easy. Just commit your changes to GitHub (in a specially named branch) and it will deploy the files. Here's more detailed info on [how to host your site or portfolio on github](http://benhowdle.im/2013/11/21/hosting-your-site-or-portfolio-on-github/).
 
-Once you're set up, it's easy to work with. You can follow a tutorial on the official [Jekyll](http://jekyllrb.com/docs/home/) site to see what I mean. As it's based on flat files, it's _very_ easy to get going with and it's easy to fit it into your SASS/LESS workflow.
+Once you're set up, it's easy to work with. You can follow a tutorial on the official [Jekyll](http://jekyllrb.com/docs/home/) site to see what I mean. As it's based on flat files, it's easy to get going with and it's easy to fit it into your SASS/LESS workflow.
 
 ## Things to think about 
 
