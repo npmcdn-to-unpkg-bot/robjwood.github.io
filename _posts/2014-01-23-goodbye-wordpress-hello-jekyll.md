@@ -37,7 +37,7 @@ Once you're set up, it's easy to work with. You can follow a tutorial on the off
 
 ## Things to think about 
 
-Unless you pay for a private GitHub account, your source code will be available for the world to see. It's up to you to deide if this is a problem.
+Unless you pay for a private GitHub account, your source code will be available for the world to see. It's up to you to decide if this is a problem.
 
 Also, this won't work if you have a dynamic website. Stick with WordPress for that.
 
