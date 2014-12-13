@@ -21,6 +21,10 @@ a:hover {
 	text-decoration: none;
 }
 
+ul {
+	margin-left: $base-spacing-unit*0.7;
+}
+
 li {
 	margin-bottom: $half-spacing-unit/3;
 }

@@ -12,7 +12,7 @@ permalink: /enterprise/
 
 ## Website
 
-The new website is built on SharePoint 2013 and uses the Inuit framework.
+The new website is built on SharePoint 2013 and uses the brilliant [Inuit framework](https://github.com/inuitcss "Inuit CSS").
 
 ## Intranet
 
