@@ -19,8 +19,8 @@ I helped redesign and redevelop the Alliance & Leicester websites and improveme 
 
 ## What did I do?
 
-- Integral to redesign and bringing in house of the main Alliance & Leicester websites, and on it’s first refresh.
-- Responsible for updating, maintaining and developing websites and developing new functionality.
-- Managed bringing e-mail campaigns in house and the production of emails.
-- Responsible for taking in-house designs and and converting them into web pages.
-- They awarded me two Going the Extra Mile (GEM) awards in 2002. One was for commitment and teamwork and the other for helping with the personal development of a colleague.
++ Integral to redesign and bringing in house of the main Alliance & Leicester websites, and on it’s first refresh.
++ Responsible for updating, maintaining and developing websites and developing new functionality.
++ Managed bringing e-mail campaigns in house and the production of emails.
++ Responsible for taking in-house designs and and converting them into web pages.
++ They awarded me two Going the Extra Mile (GEM) awards in 2002. One was for commitment and teamwork and the other for helping with the personal development of a colleague.

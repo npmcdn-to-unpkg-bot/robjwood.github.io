@@ -12,7 +12,7 @@ h1, h2, h3 {
 
 h1 {
 	font-weight: 700;
-	line-height: 40px;
+	line-height: $base-spacing-unit*2;
 	margin-bottom: $base-spacing-unit;
 }
 
