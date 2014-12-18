@@ -6,7 +6,6 @@
  */
 
 header {
-	border-bottom: 2px solid $Dividers;
 	padding: $base-spacing-unit/2 0;
 }
 
@@ -16,12 +15,13 @@ header {
 }
 
 	.logo a {
+		background: $White;
 		color: $Black;
 		border-bottom: none;
 		display: inline-block;
 		font-family: $logo-face;
 		font-weight: 600;
-		padding: $half-spacing-unit/1.6 0;
+		padding: $half-spacing-unit/1.6 $half-spacing-unit*1.6;
 		text-decoration: none;
 	}
 

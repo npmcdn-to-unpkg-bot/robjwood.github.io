@@ -12,6 +12,7 @@
 }
 
 	.site-nav a {
+		background: $White;
 		border-bottom: none;
 		color: $Black;
 		font-family: $brand-nav-face;
@@ -20,5 +21,6 @@
 	}
 
 	.site-nav a:hover {
+		color: $brand-color;
 		text-decoration: underline;
 	}	

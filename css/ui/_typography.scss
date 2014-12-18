@@ -42,6 +42,17 @@ blockquote {
 	margin: $base-spacing-unit*1.5 0
 }	
 
+code,
+kbd,
+pre,
+samp {
+    font-family: Consolas, monospace, serif;
+    font-size: $milli-size;
+}
+
+
+
+
 .drop-cap:first-letter{
 	margin-top: 5px;
 	margin-right: 10px;
