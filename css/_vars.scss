@@ -96,9 +96,13 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
-$brand-secondary-face:	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
-$brand-nav-face:       	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+$brand-face:        	'Source Sans Pro', sans-serif;
+$brand-secondary-face:	'Source Sans Pro', sans-serif;
+$brand-nav-face:       	'Source Sans Pro', sans-serif;
+
+// $brand-face:        	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+// $brand-secondary-face:	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
+// $brand-nav-face:       	"ff-dagny-web-pro-1","ff-dagny-web-pro-2";
 
 
 $logo-face:				$brand-nav-face;
