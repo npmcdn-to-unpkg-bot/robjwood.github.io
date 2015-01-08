@@ -8,7 +8,7 @@
 html {
 	background: $White;
 	color: $Black;
-	font-family: $brand-secondary-face;
+	font-family: $brand-face;
 }
 
 a {
@@ -39,7 +39,7 @@ hr {
 .wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: $base-spacing-unit*22;
+	max-width: $base-spacing-unit*25;
 	padding: 0 $half-spacing-unit;
 }
 
