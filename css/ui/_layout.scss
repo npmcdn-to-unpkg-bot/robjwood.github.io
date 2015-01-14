@@ -28,7 +28,7 @@ ul {
 	}
 
 hr {
-	border: 1px solid $GreyLight;
+	border: 1px solid $Grey;
 	margin-bottom: 0;
 }
 
@@ -39,7 +39,7 @@ hr {
 .wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: $base-spacing-unit*25;
+	max-width: $base-spacing-unit*21;
 	padding: 0 $half-spacing-unit;
 }
 

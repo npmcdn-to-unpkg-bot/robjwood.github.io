@@ -15,13 +15,12 @@ header {
 }
 
 	.logo a {
-		background: $White;
 		color: $Black;
 		border-bottom: none;
 		display: inline-block;
 		font-family: $logo-face;
-		font-weight: 600;
-		padding: $half-spacing-unit/1.6 $half-spacing-unit*1.6;
+		font-weight: 700;
+		padding: $half-spacing-unit/1.6 0;
 		text-decoration: none;
 	}
 

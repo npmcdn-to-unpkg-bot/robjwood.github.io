@@ -8,22 +8,20 @@
 h1, h2, h3 {
 	color: $Black;
 	font-family: $brand-secondary-face;
+	font-weight: 900;
 	margin-bottom: $half-spacing-unit;
 }
 
 h1 {
-	font-weight: 700;
 	line-height: $base-spacing-unit*2;
 	margin-bottom: $base-spacing-unit;
 }
 
 h2 {
-	font-weight: 700;
-	line-height: 32px;
+	line-height: $base-spacing-unit*1.2;
 }
 
 h3 {
-	font-weight: 700;
 	line-height: 28px;
 }
 
@@ -31,6 +29,7 @@ h3 {
 .intro {
 	color: $SecondaryText;
 	font-size: $h3-size;
+	font-family: "adelle-1","adelle-2";
 }
 
 blockquote {

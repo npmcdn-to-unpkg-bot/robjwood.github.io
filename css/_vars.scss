@@ -48,9 +48,9 @@ $giga-size:         112px!default;
 $mega-size:         56px!default;
 $kilo-size:         45px!default;
 
-$h1-size:           47px;		// .alpha
-$h2-size:           24px; 		// .beta
-$h3-size:           20px;		// .gamma
+$h1-size:           52px;		// .alpha
+$h2-size:           32px; 		// .beta
+$h3-size:           22px;		// .gamma
 
 $milli-size:        14px!default;
 $micro-size:        12px!default;
@@ -72,8 +72,8 @@ $debug-mode:        false;
 $line-height:		false;
 
 // Base font stuff
-$base-font-size:    18px;
-$base-line-height:  26px;
+$base-font-size:    22px;
+$base-line-height:  32px;
 
 $base-font-family:  serif;
 
@@ -95,18 +95,13 @@ $brand-color:       		rgba(0,47,167,1);
 $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
-
-// $brand-face:        		'Source Sans Pro', sans-serif;
-// $brand-secondary-face:	'Source Sans Pro', sans-serif;
-// $brand-nav-face:       	'Source Sans Pro', sans-serif;
-
-$brand-face:        	"abril-text-1","abril-text-2";
-$brand-secondary-face:	"tablet-gothic-1","tablet-gothic-2";
-$brand-nav-face:       	"tablet-gothic-1","tablet-gothic-2";
+$brand-face:        		"adelle-1","adelle-2";
+$brand-secondary-face:		"adelle-sans-1","adelle-sans-2";
+$brand-nav-face:       		"adelle-sans-1","adelle-sans-2";
 
 
-$logo-face:				$brand-nav-face;
-$brand-round:      		2px;
+$logo-face:					$brand-nav-face;
+$brand-round:      			2px;
 
 
 

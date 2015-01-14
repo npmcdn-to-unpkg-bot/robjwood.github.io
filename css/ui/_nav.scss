@@ -12,11 +12,12 @@
 }
 
 	.site-nav a {
-		background: $White;
 		border-bottom: none;
 		color: $Black;
 		font-family: $brand-nav-face;
-		font-weight: 500;
+		font-weight: 400;
+		padding-right: 0;
+		padding-left: 0;
 		text-decoration: none;
 	}
 
