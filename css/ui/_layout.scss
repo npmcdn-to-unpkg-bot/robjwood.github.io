@@ -29,7 +29,7 @@ ul {
 
 hr {
 	border: 1px solid $Grey;
-	margin-bottom: 0;
+	border-bottom: 0;
 }
 
 
@@ -39,7 +39,7 @@ hr {
 .wrapper {
 	margin-right: auto;
 	margin-left: auto;
-	max-width: $base-spacing-unit*21;
+	max-width: $base-spacing-unit*22;
 	padding: 0 $half-spacing-unit;
 }
 
@@ -59,7 +59,7 @@ hr {
 	}
 
 .main-content {
-	margin: $base-spacing-unit*3 0;
+	margin: $base-spacing-unit*2.5 0;
 }
 
 .dotted {

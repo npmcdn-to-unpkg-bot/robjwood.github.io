@@ -9,22 +9,7 @@ h1, h2, h3 {
 	color: $Black;
 	font-family: $brand-secondary-face;
 	font-weight: 900;
-	margin-bottom: $half-spacing-unit;
 }
-
-h1 {
-	line-height: $base-spacing-unit*2;
-	margin-bottom: $base-spacing-unit;
-}
-
-h2 {
-	line-height: $base-spacing-unit*1.2;
-}
-
-h3 {
-	line-height: 28px;
-}
-
 
 .intro {
 	color: $SecondaryText;
@@ -48,19 +33,4 @@ pre,
 samp {
     font-family: Consolas, monospace, serif;
     font-size: $milli-size;
-}
-
-
-
-
-.drop-cap:first-letter{
-	margin-top: 5px;
-	margin-right: 10px;
-	float: left;
-	margin-left: -3px;
-	font-family: $brand-face;
-	font-weight: 700;
-	height: 65px;
-	line-height: 65px;
-	font-size: 85px;
 }
