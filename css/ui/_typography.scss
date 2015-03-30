@@ -5,10 +5,16 @@
  * Explain here.
  */
 
+h1 {
+	// letter-spacing: -0.03em;
+}
+
 h1, h2, h3 {
+	border-bottom: 1px solid $Grey;
 	color: $Black;
 	font-family: $brand-secondary-face;
-	font-weight: 900;
+	font-weight: normal;
+	padding-bottom: $half-spacing-unit;
 }
 
 .intro {

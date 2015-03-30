@@ -30,6 +30,7 @@ ul {
 hr {
 	border: 1px solid $Grey;
 	border-bottom: 0;
+	margin-bottom: 0;
 }
 
 
@@ -59,7 +60,8 @@ hr {
 	}
 
 .main-content {
-	margin: $base-spacing-unit*2.5 0;
+	background: rgba(245,245,245,1);
+	padding: $base-spacing-unit*2.5 0;
 }
 
 .dotted {

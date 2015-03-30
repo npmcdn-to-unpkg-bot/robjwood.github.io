@@ -17,8 +17,7 @@
 		font-family: $brand-nav-face;
 		font-size: $h4-size;
 		font-weight: 400;
-		padding-right: 0;
-		padding-left: 0;
+		padding: $half-spacing-unit*0.64 $half-spacing-unit !important; 
 		text-decoration: none;
 	}
 
@@ -26,3 +25,8 @@
 		color: $brand-color;
 		text-decoration: underline;
 	}	
+
+	.site-nav li {
+		margin-bottom: 0;
+	}
+
