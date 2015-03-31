@@ -6,7 +6,8 @@
  */
 
 h1 {
-	// letter-spacing: -0.03em;
+	letter-spacing: -0.03em;
+	line-height: $base-line-height*1.4;
 }
 
 h1, h2, h3 {
@@ -20,7 +21,6 @@ h1, h2, h3 {
 .intro {
 	color: $SecondaryText;
 	font-size: $h3-size;
-	font-family: "adelle-1","adelle-2";
 }
 
 blockquote {
