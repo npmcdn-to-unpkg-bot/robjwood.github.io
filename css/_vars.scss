@@ -48,9 +48,9 @@ $giga-size:         112px!default;
 $mega-size:         56px!default;
 $kilo-size:         45px!default;
 
-$h1-size:           30px;		// .alpha
-$h2-size:           22px; 		// .beta
-$h3-size:           20px;		// .gamma
+$h1-size:           38px;		// .alpha
+$h2-size:           28px; 		// .beta
+$h3-size:           22px;		// .gamma
 $h4-size:           16px;		// .gamma
 
 
@@ -75,9 +75,9 @@ $line-height:		false;
 
 // Base font stuff
 $base-font-size:    18px;
-$base-line-height:  28px;
+$base-line-height:  26px;
 
-$base-font-family:  serif;
+$base-font-family:  sans-serif;
 
 // Responsive breakpoints
 
@@ -102,12 +102,6 @@ $brand-face:        		Arial, sans-serif;
 $brand-secondary-face:		'Helvetica Neue', Arial, sans-serif;
 $brand-nav-face:       		'Helvetica Neue', Arial, sans-serif;
 
-// font-family: 'Lato', sans-serif;
-// font-family: 'Cabin', sans-serif;
-// font-family: 'Libre Baskerville', serif;
-// font-family: 'Montserrat', sans-serif;
-// font-family: 'Open Sans', sans-serif;
-
 $logo-face:					$brand-nav-face;
 $brand-round:      			2px;
 
@@ -125,9 +119,7 @@ $npower-500:				rgba(244,67,54,1);
 $swm-500:					rgba(0,188,212,1);
 $al-500:					rgba(255,87,34,1);
 
-
-
-$Black: 					rgba(0,0,0,1);
+$Black: 					rgba(10,10,10,1);
 
 // $h1-colour:					rgba(0,0,0,0.54);
 

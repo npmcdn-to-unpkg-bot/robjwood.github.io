@@ -9,6 +9,11 @@ html {
 	background: $White;
 	color: $Black;
 	font-family: $brand-face;
+	
+	@include media-query(desk){
+		font-size: $base-font-size*0.8;
+		line-height: $base-line-height*0.8;
+	}
 }
 
 a {

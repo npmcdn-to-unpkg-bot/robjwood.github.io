@@ -7,20 +7,28 @@
 
 h1 {
 	letter-spacing: -0.03em;
-	line-height: $base-line-height*1.4;
+	font-weight: normal;
 }
 
-h1, h2, h3 {
+h2, h3 {
 	border-bottom: 1px solid $Grey;
 	color: $Black;
 	font-family: $brand-secondary-face;
 	font-weight: normal;
-	padding-bottom: $half-spacing-unit;
+	padding-bottom: $base-spacing-unit*0.4;
+	
+	@include media-query(desk){
+		padding-bottom: $base-spacing-unit*0.2;
+	}
 }
 
 .intro {
-	color: $SecondaryText;
 	font-size: $h3-size;
+	line-height: $base-line-height*1.1;
+
+	@include media-query(desk){
+		font-size: $base-font-size*1.1;
+	}
 }
 
 blockquote {
