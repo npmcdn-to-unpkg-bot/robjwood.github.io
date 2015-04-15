@@ -6,24 +6,23 @@
  */
 
 h1 {
-	letter-spacing: -0.03em;
-	font-weight: normal;
+	font-family: $brand-secondary-face;
+	font-weight: 700;
+	line-height: $base-line-height*2.2;
 }
 
 h2, h3 {
-	border-bottom: 1px solid $Grey;
 	color: $Black;
-	font-family: $brand-secondary-face;
-	font-weight: normal;
-	padding-bottom: $base-spacing-unit*0.4;
+	font-weight: 900;
+	letter-spacing: $base-spacing-unit*0.04; 
+	text-transform: uppercase;
 	
 	@include media-query(desk){
-		padding-bottom: $base-spacing-unit*0.2;
 	}
 }
 
 .intro {
-	font-size: $h3-size;
+	font-size: $base-font-size*1.2;
 	line-height: $base-line-height*1.1;
 
 	@include media-query(desk){

@@ -48,10 +48,9 @@ $giga-size:         112px!default;
 $mega-size:         56px!default;
 $kilo-size:         45px!default;
 
-$h1-size:           38px;		// .alpha
-$h2-size:           28px; 		// .beta
-$h3-size:           22px;		// .gamma
-$h4-size:           16px;		// .gamma
+$h1-size:           54px;		// .alpha
+$h2-size:           20px; 		// .beta
+$h3-size:           18px;		// .gamma
 
 
 $milli-size:        13px!default;
@@ -98,14 +97,21 @@ $brand-secondary-color: 	rgba(220,170,70,1);
 $brand-action-color: 		$brand-color;
 
 
-$brand-face:        		Arial, sans-serif;
-$brand-secondary-face:		'Helvetica Neue', Arial, sans-serif;
-$brand-nav-face:       		'Helvetica Neue', Arial, sans-serif;
+$brand-face:        		'Roboto', sans-serif;
+$brand-secondary-face:		'Roboto', sans-serif;
 
-$logo-face:					$brand-nav-face;
 $brand-round:      			2px;
 
+/*
 
+$brand-face:        		'Lato', sans-serif;
+$brand-secondary-face:		'Playfair Display', serif;
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+*/
 
 /*------------------------------------*\
     $CUSTOM
@@ -119,7 +125,7 @@ $npower-500:				rgba(244,67,54,1);
 $swm-500:					rgba(0,188,212,1);
 $al-500:					rgba(255,87,34,1);
 
-$Black: 					rgba(10,10,10,1);
+$Black: 					rgba(0,0,0,1);
 
 // $h1-colour:					rgba(0,0,0,0.54);
 
@@ -133,4 +139,5 @@ $GreyLight:					rgba(240,240,240,1);
 $Green:						rgba(50,130,50,1);
 $Red:						rgba(217,70,28,1);
 $Blue:						rgba(4,75,91,1);
-$Yellow:					rgba(230,255,0,1);
+$Yellow:					rgba(253,195,46,1);
+// $Yellow:					rgba(230,255,0,1);

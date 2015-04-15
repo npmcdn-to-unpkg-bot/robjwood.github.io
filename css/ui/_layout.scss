@@ -11,8 +11,8 @@ html {
 	font-family: $brand-face;
 	
 	@include media-query(desk){
-		font-size: $base-font-size*0.8;
-		line-height: $base-line-height*0.8;
+		font-size: $base-font-size*0.9;
+		line-height: $base-line-height*0.9;
 	}
 }
 
@@ -33,7 +33,7 @@ ul {
 	}
 
 hr {
-	border: 1px solid $Grey;
+	border: 1px solid $Yellow;
 	border-bottom: 0;
 	margin-bottom: 0;
 }
@@ -94,8 +94,11 @@ hr {
 	}
 
 	h2 {
-		color: $White;
 		border-bottom: 0;
+		color: $White;
+		font-family: $brand-face;
+		font-weight: 700;
+		line-height: $base-line-height*1.2;
 		padding-bottom: 0;
 	}
 }
