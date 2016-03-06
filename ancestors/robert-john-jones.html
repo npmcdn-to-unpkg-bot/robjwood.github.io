@@ -1,10 +1,39 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, minimum-scale=1.0"><meta name="description" content="Front end web development with a focus on HTML and CSS."><title>Rob Wood, front end web developer</title><link rel="stylesheet" href="/css/style.css"><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-381229-7', 'auto');
-ga('send', 'pageview');</script></head><body><header><div class="wrapper"><div class="grid"><div class="grid__item one-half"><!----><div class="logo"><a href="/" title="Rob Wood" class="gamma">Rob Wood</a></div></div><nav class="grid__item one-half text--right"><ul class="nav nav--block site-nav gamma"><li><a href="/about" title="About">About</a></li></ul></nav></div></div></header><hr><div class="main-content"><div class="wrapper"><div class="grid"><div class="grid__item one-whole"><h2>1924</h2><p>Born in Carmarthenshire.</p>
-<h2>19th/20th August 1944</h2><p>He served in the 8th Kings Royal Irish Hussars in WWII. He was part of C Squadron.</p>
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <title> - robjwood.com</title>
+  <style type="text/css">
+    body {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 10px;
+      padding-left: 10px;
+      max-width: 680px;
+    }
+
+    a {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="index.html">Rob Wood</a></p>
+  </header>
+
+  <h1 id="robert-john-jones">Robert John Jones</h1>
+<!-- 
+include ../_shared/gallery
++gallery('robert-john-jones-1','robert-john-jones-2','robert-john-jones-3','robert-john-jones-4')
+
+ -->
+<h2 id="1924">1924</h2>
+<p>Born in Carmarthenshire.</p>
+<h2 id="19th-20th-august-1944">19th/20th August 1944</h2>
+<p>He served in the 8th Kings Royal Irish Hussars in WWII. He was part of C Squadron.</p>
 <p>He was killed in action. Here&#39;s a excerpt of a letter from Major P. H. Huth to his parents, dated 6 September 1944:</p>
 <pre><code>It is with very deep regret that I have to write this letter. You will have heard by now through official channels that your son was killed by action on the night of the 19th/20 August.
 
@@ -34,4 +63,33 @@ P.S. He was buried with his two companions by our regimental padre.
 <li>His squadron but earlier: WO 169/4488 8 King&#39;s Royal Irish Hussars &#39;C&#39; Squadron 1942 July, Aug.</li>
 <li>Did he train at West Tofts Camp?</li>
 </ul>
-<h2>More links</h2><p><a href="http://freepages.military.rootsweb.ancestry.com/~attwood/8thkri/kriroll.html">http://freepages.military.rootsweb.ancestry.com/~attwood/8thkri/kriroll.html</a><br><a href="http://ww2talk.com/forums/topic/27471-8th-kings-royal-irish-hussars/">http://ww2talk.com/forums/topic/27471-8th-kings-royal-irish-hussars/</a><br><a href="https://www.evernote.com/shard/s125/res/95237412-9db8-443e-aa91-c8f6dac1fe0b/Picture.jpeg?search=robert%20john%20jones">https://www.evernote.com/shard/s125/res/95237412-9db8-443e-aa91-c8f6dac1fe0b/Picture.jpeg?search=robert%20john%20jones</a><br><a href="https://www.evernote.com/shard/s125/res/62fa6a61-68ea-460d-99fe-766777c9b541/Picture.jpeg?search=robert%20john%20jones">https://www.evernote.com/shard/s125/res/62fa6a61-68ea-460d-99fe-766777c9b541/Picture.jpeg?search=robert%20john%20jones</a>  </p></div></div></div></div><hr><footer><div class="wrapper cf"><ol class="breadcrumb"></ol></div></footer></body></html>
+<h2 id="more-links">More links</h2>
+<p><a href="http://freepages.military.rootsweb.ancestry.com/~attwood/8thkri/kriroll.html">http://freepages.military.rootsweb.ancestry.com/~attwood/8thkri/kriroll.html</a><br><a href="http://ww2talk.com/forums/topic/27471-8th-kings-royal-irish-hussars/">http://ww2talk.com/forums/topic/27471-8th-kings-royal-irish-hussars/</a>   </p>
+
+
+</body>
+</html>
+<!--
+
+doctype
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, minimum-scale=1.0")
+    //- meta(name="description" content="#{ description }")
+    //- title #{ title }
+
+  body
+    //- include /_shared/site-nav
+
+    div.main-content
+      header.article-head
+        div.wrapper
+
+      div.wrapper
+        div.layout
+          div.layout__item.u-1-of-12
+            //- != yield
+
+    //- include /_shared/footer
+-->

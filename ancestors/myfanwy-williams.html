@@ -1,20 +1,78 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, minimum-scale=1.0"><meta name="description" content="Front end web development with a focus on HTML and CSS."><title>Rob Wood, front end web developer</title><link rel="stylesheet" href="/css/style.css"><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-381229-7', 'auto');
-ga('send', 'pageview');</script></head><body><header><div class="wrapper"><div class="grid"><div class="grid__item one-half"><!----><div class="logo"><a href="/" title="Rob Wood" class="gamma">Rob Wood</a></div></div><nav class="grid__item one-half text--right"><ul class="nav nav--block site-nav gamma"><li><a href="/about" title="About">About</a></li></ul></nav></div></div></header><hr><div class="main-content"><div class="wrapper"><div class="grid"><div class="grid__item one-whole"><h2>1906</h2><p>Born in Tregarth, Gwynedd on 20 August.</p>
-<h2>1911</h2><p>Was living in Llandegai, Caernarvonshire.</p>
-<h2>1928</h2><ul>
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <title> - robjwood.com</title>
+  <style type="text/css">
+    body {
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 10px;
+      padding-left: 10px;
+      max-width: 680px;
+    }
+
+    a {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="index.html">Rob Wood</a></p>
+  </header>
+
+  <h1 id="myfanwy-williams">Myfanwy Williams</h1>
+<!--
+include ../_shared/gallery
++gallery('myfanwy-williams-2','myfanwy-williams-4','myfanwy-jane-williams-1','myfanwy-williams-margaret-hughes-1')
+-->
+<h2 id="1906">1906</h2>
+<p>Born in Tregarth, Gwynedd on 20 August.</p>
+<h2 id="1911">1911</h2>
+<p>Was living in Llandegai, Caernarvonshire.</p>
+<h2 id="1928">1928</h2>
+<ul>
 <li>Married John Rees Tyrer at the Register Office, Bangor, 6 October.   </li>
 <li>Her Dad was William Williams (deceased), a quarryman.  </li>
 <li>She was living at Penarfynydd(?), Tregarth.  </li>
 <li>Witness was William Stanley Tyrer</li>
 </ul>
-<h2>1978</h2><ul>
+<h2 id="1978">1978</h2>
+<ul>
 <li>Died at 10 Maes y Carnedd, Bethesda, on 18 April.  </li>
 <li>Died of acute cardiac failure.  </li>
 <li>Coronary Atherosclerosis.  </li>
 <li>Certified by Deputy Coroner For Bryri District after post mortem without inquest.  </li>
 </ul>
-<p>Informant: Owen Tom Edwards  </p></div></div></div></div><hr><footer><div class="wrapper cf"><ol class="breadcrumb"></ol></div></footer></body></html>
+<p>Informant: Owen Tom Edwards  </p>
+
+
+</body>
+</html>
+<!--
+
+doctype
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, minimum-scale=1.0")
+    //- meta(name="description" content="#{ description }")
+    //- title #{ title }
+
+  body
+    //- include /_shared/site-nav
+
+    div.main-content
+      header.article-head
+        div.wrapper
+
+      div.wrapper
+        div.layout
+          div.layout__item.u-1-of-12
+            //- != yield
+
+    //- include /_shared/footer
+-->
